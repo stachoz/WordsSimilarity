@@ -12,7 +12,10 @@ def main():
     # scraper.scrap_sports_words()
     # scraper.scrap_music_instruments()
     # scraper.scrap_technology()
-
+    # scraper.scrap_colors()
+    # scraper.scrap_animals()
+    # scraper.scrap_vegetables()
+    # scraper.scrap_fruits()
 
 if __name__ == '__main__':
     main()

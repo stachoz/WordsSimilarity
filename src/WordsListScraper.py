@@ -11,19 +11,75 @@ class Scraper:
 
     def scrap_fruits(self):
         url = "https://dietetycy.org.pl/owoce/"  # 50
-        pass
+        try:
+            soup = self.__create_soup(url)
+            words = set()
+            rows = soup.find_all("h3", class_="wp-block-heading")
+
+            for row in rows:
+                strong_tag = row.find("strong")
+                if strong_tag:
+                    text = strong_tag.text.strip()
+                    if text.isalpha() and len(text) > 2:
+                        words.add(text)
+
+            return {"fruits": list(words)}
+        except BadRequest:
+            print(f"cannot retrieve data from url {url}")
+
 
     def scrap_vegetables(self):
         url = "https://dietetycy.org.pl/warzywa/"  # 50
-        pass
+        try:
+            soup = self.__create_soup(url)
+            words = set()
+            rows = soup.find_all("h3", class_="wp-block-heading")
+
+            for row in rows:
+                strong_tag = row.find("strong")
+                if strong_tag:
+                    text = strong_tag.text.strip()
+                    if text.isalpha() and len(text) > 2:
+                        words.add(text)
+
+            return {"vegetables": list(words)}
+        except BadRequest:
+            print(f"cannot retrieve data from url {url}")
 
     def scrap_animals(self):
         url = "https://all4mom.pl/lista-50-najpopularniejszych-zwierzat-domowych-oryginalni-pupile-dla-dzieci/"  # 50
-        pass
+        try:
+            soup = self.__create_soup(url)
+            words = set()
+            rows = soup.find_all("span", style="font-size: 18pt;")
+
+            for row in rows:
+                text = row.text.strip()
+                animal_name = text.split(". ", 1)[-1]
+                if animal_name.isalpha() and len(animal_name) > 2:
+                    words.add(animal_name)
+
+            return {"animals": list(words)}
+        except BadRequest:
+            print(f"cannot retrieve data from url {url}")
 
     def scrap_colors(self):
-        url = "https://preply.com/en/blog/red-is-the-new-black-let-s-learn-colors-and-shades-in-english/"  # 25
-        pass
+        url = "https://preply.com/en/blog/red-is-the-new-black-let-s-learn-colors-and-shades-in-english/"
+        try:
+            soup = self.__create_soup(url)
+            colors = set()
+
+            rows = soup.select("#preply_post li")
+
+            for row in rows:
+                text = row.text.strip()
+                color_name = text.split("[")[0].strip()
+                colors.add(color_name)
+
+            return {"colors": list(colors)}
+
+        except BadRequest:
+            print(f"cannot retrieve data from url {url}")
 
     def scrap_places_in_town(self):
         url = "http://www.grammar-monster.com/vocabulary/ESL-vocabulary-places-in-town.htm"  # 12
