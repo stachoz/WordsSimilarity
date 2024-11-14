@@ -7,7 +7,7 @@ from requests import Response
 class Scraper:
 
     def scrap_fruits(self):
-        url = "https://dietetycy.org.pl/owoce/"  # 50
+        url = "https://dietetycy.org.pl/owoce/"
         try:
             soup = self.__create_soup(url)
             words = set()
@@ -26,7 +26,7 @@ class Scraper:
 
 
     def scrap_vegetables(self):
-        url = "https://dietetycy.org.pl/warzywa/"  # 50
+        url = "https://dietetycy.org.pl/warzywa/"
         try:
             soup = self.__create_soup(url)
             words = set()
@@ -44,7 +44,7 @@ class Scraper:
             print(f"cannot retrieve data from url {url}")
 
     def scrap_animals(self):
-        url = "https://all4mom.pl/lista-50-najpopularniejszych-zwierzat-domowych-oryginalni-pupile-dla-dzieci/"  # 50
+        url = "https://all4mom.pl/lista-50-najpopularniejszych-zwierzat-domowych-oryginalni-pupile-dla-dzieci/"
         try:
             soup = self.__create_soup(url)
             words = set()
@@ -79,7 +79,7 @@ class Scraper:
             print(f"cannot retrieve data from url {url}")
 
     def scrap_places_in_town(self):
-        url = "http://www.grammar-monster.com/vocabulary/ESL-vocabulary-places-in-town.htm"  # 12
+        url = "http://www.grammar-monster.com/vocabulary/ESL-vocabulary-places-in-town.htm"
         try:
             soup = self.__create_soup(url)
             words = set()
@@ -93,7 +93,7 @@ class Scraper:
             print(f"cannot retrieve data from url {url}")
 
     def scrap_jobs(self):
-        url = "https://chatschool.pl/blog/zawody-po-angielsku/"  # 70
+        url = "https://chatschool.pl/blog/zawody-po-angielsku/"
         try:
             soup = self.__create_soup(url)
             words = set()
@@ -109,7 +109,7 @@ class Scraper:
 
 
     def scrap_hobbies(self):
-        url = "https://langeek.co/en/vocab/subcategory/800/word-list"  # 24
+        url = "https://langeek.co/en/vocab/subcategory/800/word-list"
         try:
             soup = self.__create_soup(url)
             words = set()
@@ -125,7 +125,7 @@ class Scraper:
 
 
     def scrap_drinks(self):
-        url = "https://langeek.co/en/vocab/subcategory/146/word-list"  # 28
+        url = "https://langeek.co/en/vocab/subcategory/146/word-list"
         try:
             soup = self.__create_soup(url)
             words = set()
@@ -140,7 +140,7 @@ class Scraper:
 
 
     def scarp_parts_of_house(self):
-        url = "https://www.woodwardenglish.com/lesson/parts-of-the-house/"  # 22
+        url = "https://www.woodwardenglish.com/lesson/parts-of-the-house/"
         try:
             soup = self.__create_soup(url)
             words = list()
@@ -155,7 +155,7 @@ class Scraper:
 
 
     def scrap_sports_words(self):
-        url = "https://www.britannica.com/dictionary/eb/3000-words/topic/american-sports-vocabulary-english"  # 33
+        url = "https://www.britannica.com/dictionary/eb/3000-words/topic/american-sports-vocabulary-english"
         try:
             soup = self.__create_soup(url)
             a_words_tags = soup.select('ul.t_words li a:not([target])')
@@ -173,7 +173,7 @@ class Scraper:
             print(f"cannot retrieve data from url {url}")
 
     def scrap_music_instruments(self):
-        url = "https://promova.com/english-vocabulary/music-instruments-in-english"  # 50
+        url = "https://promova.com/english-vocabulary/music-instruments-in-english"
         return self.__promova_website_scraper("strong", "instruments", url)
 
     def scrap_technology(self):
