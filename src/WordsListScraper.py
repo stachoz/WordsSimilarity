@@ -1,4 +1,3 @@
-from warnings import deprecated
 import requests
 from bs4 import BeautifulSoup
 from google.cloud.exceptions import BadRequest
@@ -6,8 +5,6 @@ from requests import Response
 
 
 class Scraper:
-
-    BS_FEATURE_NAME = "html.parser"
 
     def scrap_fruits(self):
         url = "https://dietetycy.org.pl/owoce/"  # 50
@@ -202,7 +199,6 @@ class Scraper:
             print(f"cannot retrieve data from url {promova_url}")
 
 
-
     def __clean_from_bracket_text(self, tag_text):
         bracket_pos = tag_text.find("(")
         if bracket_pos != -1:
@@ -212,6 +208,6 @@ class Scraper:
     def __create_soup(self, url):
         response = requests.get(url)
         if response.status_code == 200:
-            return BeautifulSoup(response.text, self.BS_FEATURE_NAME)
+            return BeautifulSoup(response.text, "html.parser")
         else:
             raise BadRequest("Status Code " + str(response.status_code))
