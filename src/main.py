@@ -1,5 +1,7 @@
 from src.WordsListScraper import Scraper
 import csv
+from src.WordsTranslator import WordsTranslator
+
 
 def run_all_scrappers_and_save_to_file():
     scraper = Scraper()
@@ -28,13 +30,15 @@ def run_all_scrappers_and_save_to_file():
                 data.append({"words": word, "category": category})
 
     with open("words_data.csv", mode="w", newline='', encoding="utf-8") as file:
-        writer = csv.DictWriter(file, fieldnames=["words", "category"])
-        writer.writeheader()  # Write headers
-        writer.writerows(data)  # Write data rows
+        writer = csv.DictWriter(file, fieldnames=["word", "category"])
+        writer.writeheader()
+        writer.writerows(data)
 
 def main():
-    # run_all_scrappers_and_save_to_file()
-    pass
+    t = WordsTranslator()
+    t.translate()
+
+
 
 if __name__ == '__main__':
     main()

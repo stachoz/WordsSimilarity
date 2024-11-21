@@ -1,0 +1,323 @@
+word,category
+train station,places_in_town
+park,places_in_town
+bus station,places_in_town
+school,places_in_town
+library,places_in_town
+post office,places_in_town
+Post offices,places_in_town
+bank,places_in_town
+theatre,places_in_town
+museum,places_in_town
+hospital,places_in_town
+restaurant,places_in_town
+supermarket,places_in_town
+politician,jobs
+dietician,jobs
+hairdresser,jobs
+electrician,jobs
+lawyer,jobs
+psychologist,jobs
+pharmacist,jobs
+bookkeeper,jobs
+employee,jobs
+Marketing,jobs
+gardener,jobs
+nurse,jobs
+dentist,jobs
+architect,jobs
+cleaner,jobs
+postman,jobs
+teacher,jobs
+woman,jobs
+employer,jobs
+accountant,jobs
+judge,jobs
+photographer,jobs
+surgeon,jobs
+optician,jobs
+predisposition,jobs
+musician,jobs
+butcher,jobs
+developer,jobs
+fisherman,jobs
+economist,jobs
+mechanic,jobs
+journalist,jobs
+designer,jobs
+engineer,jobs
+baker,jobs
+librarian,jobs
+pilot,jobs
+scientist,jobs
+shifts,jobs
+painter,jobs
+secretary,jobs
+tailor,jobs
+physician,jobs
+translator,jobs
+writer,jobs
+builder,jobs
+filmmaker,jobs
+artist,jobs
+Finance,jobs
+doctor,jobs
+editor,jobs
+veterinarian,jobs
+neutralne,jobs
+receptionist,jobs
+cashier,jobs
+barber,jobs
+soldier,jobs
+florist,jobs
+Manufacturing,jobs
+carpenter,jobs
+model,jobs
+plumber,jobs
+attorney,jobs
+farmer,jobs
+professor,jobs
+astronomer,jobs
+singer,jobs
+lifeguard,jobs
+bartender,jobs
+banker,jobs
+karting,hobbies
+cheerleading,hobbies
+gambling,hobbies
+pottery,hobbies
+blogging,hobbies
+windsurfing,hobbies
+collecting,hobbies
+knitting,hobbies
+skydiving,hobbies
+to doodle,hobbies
+scuba diving,hobbies
+mountain biking,hobbies
+leisure,hobbies
+window shopping,hobbies
+hunting,hobbies
+sketching,hobbies
+traveling,hobbies
+journaling,hobbies
+pastime,hobbies
+birdwatching,hobbies
+origami,hobbies
+clubbing,hobbies
+backpacking,hobbies
+meditation,hobbies
+cocoa,drinks
+beer,drinks
+still,drinks
+latte,drinks
+brandy,drinks
+drink,drinks
+alcoholic,drinks
+wine,drinks
+nonalcoholic,drinks
+whiskey,drinks
+beverage,drinks
+milkshake,drinks
+cocktail,drinks
+Tonic,drinks
+energy drink,drinks
+smoothie,drinks
+Champagne,drinks
+sparkling,drinks
+soft drink,drinks
+vodka,drinks
+espresso,drinks
+to drink,drinks
+tequila,drinks
+lemonade,drinks
+soda,drinks
+Coca-Cola,drinks
+alcohol,drinks
+mineral water,drinks
+house,partsOfHouse
+roof,partsOfHouse
+chimney,partsOfHouse
+window,partsOfHouse
+door,partsOfHouse
+balcony,partsOfHouse
+garage,partsOfHouse
+driveway,partsOfHouse
+yard,partsOfHouse
+letterbox,partsOfHouse
+path,partsOfHouse
+attic,partsOfHouse
+bedroom,partsOfHouse
+bathroom,partsOfHouse
+nursery (room),partsOfHouse
+home office,partsOfHouse
+living room,partsOfHouse
+dining room,partsOfHouse
+kitchen,partsOfHouse
+laundry room,partsOfHouse
+basement,partsOfHouse
+garage,partsOfHouse
+amateur,partsOfHouse
+arena,partsOfHouse
+athletic,partsOfHouse
+backboard,partsOfHouse
+backhand,partsOfHouse
+batter,partsOfHouse
+baseball,partsOfHouse
+basketball,partsOfHouse
+bench,partsOfHouse
+catcher,partsOfHouse
+champion,partsOfHouse
+championship,partsOfHouse
+coach,partsOfHouse
+competitive,partsOfHouse
+defense,partsOfHouse
+doubles,partsOfHouse
+dribble,partsOfHouse
+dugout,partsOfHouse
+fan,partsOfHouse
+field goal,partsOfHouse
+finish line,partsOfHouse
+football,partsOfHouse
+forehand,partsOfHouse
+free throw,partsOfHouse
+goal,partsOfHouse
+goal line,partsOfHouse
+goalkeeper,partsOfHouse
+goalpost,partsOfHouse
+grand slam,partsOfHouse
+half time,partsOfHouse
+Trumpet,instruments
+Tuba,instruments
+Trombone,instruments
+French horn,instruments
+Bugle,instruments
+Cornet,instruments
+Euphonium,instruments
+Flugelhorn,instruments
+Mellophone,instruments
+Sousaphone,instruments
+Violin,instruments
+Guitar,instruments
+Cello,instruments
+Harp,instruments
+Double bass,instruments
+Viola,instruments
+Mandolin,instruments
+Ukulele,instruments
+Banjo,instruments
+Lute,instruments
+Drums,instruments
+Tambourine,instruments
+Maracas,instruments
+Xylophone,instruments
+Cymbals,instruments
+Bongos,instruments
+Congas,instruments
+Triangle,instruments
+Cowbell,instruments
+Gong,instruments
+Flute,instruments
+Clarinet,instruments
+Oboe,instruments
+Saxophone,instruments
+Bassoon,instruments
+Piccolo,instruments
+Bass,instruments
+clarinet,instruments
+English horn,instruments
+Recorder,instruments
+Contrabassoon,instruments
+Piano,instruments
+Organ,instruments
+Synthesizer,instruments
+Accordion,instruments
+Harpsichord,instruments
+Clavichord,instruments
+Celesta,instruments
+Spinet,instruments
+Melodica,instruments
+Digital,instruments
+piano,instruments
+Computer,technology
+Internet,technology
+Software,technology
+Hardware,technology
+Digital,technology
+Analog: a,technology
+Processor,technology
+Server,technology
+URL,technology
+Operating System,technology
+Peripheral,technology
+Smartphone,technology
+Tablet,technology
+Laptop,technology
+Desktop,technology
+Computer,technology
+Smartwatch,technology
+E-reader,technology
+Game Console,technology
+VR Headset,technology
+Drone,technology
+Smart Speaker,technology
+Wearable Fitness Tracker,technology
+Digital Camera,technology
+Action Camera,technology
+Smart TV,technology
+Home Assistant Hub,technology
+Algorithm,technology
+Byte,technology
+Cache,technology
+Domain,technology
+Encryption,technology
+Firewall,technology
+Data Mining,technology
+Virtual Reality,technology
+Blockchain,technology
+Machine Learning,technology
+API,technology
+Cloud,technology
+WiFi,technology
+Plugin,technology
+Streaming,technology
+Viral,technology
+E-commerce,technology
+Podcasts,technology
+Augmented reality,technology
+Smart home,technology
+Biometrics,technology
+Social Network,technology
+Influencer,technology
+Hashtag,technology
+DM,technology
+Meme,technology
+Vlog,technology
+Feed,technology
+Followers,technology
+Trending,technology
+Engagement,technology
+Orange,colors
+Navy,colors
+Coral,colors
+Red,colors
+Beige,colors
+Violet,colors
+Black,colors
+Ivory,colors
+Maroon,colors
+Blue,colors
+Olive,colors
+Crimson,colors
+Gold,colors
+Turquoise,colors
+Green,colors
+Pink,colors
+Khaki,colors
+Mint,colors
+Brown,colors
+Grey,colors
+White,colors
+Silver,colors
+Lavender,colors
+Yellow,colors
+Purple,colors
