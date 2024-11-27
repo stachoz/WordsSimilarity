@@ -7,16 +7,15 @@ from requests import Response
 class Scraper:
 
     def scrap_fruits(self):
-        url = "https://dietetycy.org.pl/owoce/"
+        url = "https://ellalanguage.com/blog/owoce-po-angielsku/"
         try:
             soup = self.__create_soup(url)
             words = set()
-            rows = soup.find_all("h3", class_="wp-block-heading")
-
-            for row in rows:
-                strong_tag = row.find("strong")
-                if strong_tag:
-                    text = strong_tag.text.strip()
+            parent_divs = soup.find_all("div", class_="leftonedot30")
+            for div in parent_divs:
+                bold_tags = div.find_all("b")
+                for tag in bold_tags:
+                    text = tag.text.strip()
                     if text.isalpha() and len(text) > 2:
                         words.add(text)
 
@@ -24,41 +23,41 @@ class Scraper:
         except BadRequest:
             print(f"cannot retrieve data from url {url}")
 
-
     def scrap_vegetables(self):
-        url = "https://dietetycy.org.pl/warzywa/"
+        url = "https://www.elanguages.pl/warzywa"
         try:
             soup = self.__create_soup(url)
             words = set()
-            rows = soup.find_all("h3", class_="wp-block-heading")
 
-            for row in rows:
-                strong_tag = row.find("strong")
-                if strong_tag:
-                    text = strong_tag.text.strip()
-                    if text.isalpha() and len(text) > 2:
-                        words.add(text)
+            bold_tags = soup.find_all("span", class_="wixui-rich-text__text", style="font-weight:bold;")
+            for tag in bold_tags:
+                text = tag.text.strip()
+                if text.isalpha() and len(text) > 2:
+                    words.add(text)
 
             return {"vegetables": list(words)}
         except BadRequest:
-            print(f"cannot retrieve data from url {url}")
+            print(f"Cannot retrieve data from url {url}")
+
 
     def scrap_animals(self):
-        url = "https://all4mom.pl/lista-50-najpopularniejszych-zwierzat-domowych-oryginalni-pupile-dla-dzieci/"
+        url = "https://www.ingless.pl/artykul/zwierzeta-po-angielsku-animals/"
         try:
             soup = self.__create_soup(url)
             words = set()
-            rows = soup.find_all("span", style="font-size: 18pt;")
 
-            for row in rows:
-                text = row.text.strip()
-                animal_name = text.split(". ", 1)[-1]
-                if animal_name.isalpha() and len(animal_name) > 2:
-                    words.add(animal_name)
+            terms_sections = soup.find_all("div", class_="article__terms")
+            for section in terms_sections:
+                strong_tags = section.find_all("strong")
+                for tag in strong_tags:
+                    text = tag.text.strip()
+                    if text.isalpha() and len(text) > 2:
+                        words.add(text)
 
             return {"animals": list(words)}
         except BadRequest:
-            print(f"cannot retrieve data from url {url}")
+            print(f"Cannot retrieve data from url {url}")
+
 
     def scrap_colors(self):
         url = "https://preply.com/en/blog/red-is-the-new-black-let-s-learn-colors-and-shades-in-english/"
@@ -77,6 +76,7 @@ class Scraper:
 
         except BadRequest:
             print(f"cannot retrieve data from url {url}")
+
 
     def scrap_places_in_town(self):
         url = "http://www.grammar-monster.com/vocabulary/ESL-vocabulary-places-in-town.htm"
