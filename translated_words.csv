@@ -1,323 +1,382 @@
-words,fr,it,es,de,pl,cs,category
-train station,gare,stazione ferroviaria,estación de tren,Bahnhof,dworzec kolejowy,nádraží,places_in_town
-park,Parc,parco,parque,Park,Park,park,places_in_town
-bus station,gare routière,stazione dell'autobus,estación de autobuses,Busbahnhof,Dworzec autobusowy,Zastávka na autubus,places_in_town
-school,à l'école,scuola,escuela,Schule,szkolny,školy,places_in_town
-library,bibliothèque,library,biblioteca,bibliothek,biblioteka,knihovna,places_in_town
-post office,poste,posta,oficina de correos,Post,POCZTA,post office,places_in_town
-Post offices,Bureaux de poste,Posta,Oficinas de correos,Postämter,Urzędy pocztowe,Poštovní úřady,places_in_town
-bank,banque,banca,el banco,Bank,bank,banka,places_in_town
-theatre,théâtre,teatro,el teatro,Theater,teatr,divadlo,places_in_town
-museum,musée,museo,museo,Museum,muzeum,muzea,places_in_town
-hospital,hôpital,ospedale,hospital,Krankenhaus,szpital,nemocniční zařízení,places_in_town
-restaurant,restaurant,ristorante,restaurante,Restaurant/Hotel,restauracja,restaurace,places_in_town
-supermarket,Supermarché,supermercato,supermercado,Supermarkt,supermarket,supermarket,,places_in_town
-politician,personnalité politique,Politico,político,Politiker*in,polityk,politik,jobs
-dietician,Diététiciennes,dietologo,dietista,DIÄTBERATER,dietetyk,dietetici,jobs
-hairdresser,coiffeur,Parrucchiere,peluquero,Friseur*in,Fryzjer,Kadeřnictví,jobs
-electrician,electricien,elettricista,electricista,Elektriker*in,elektryk,Elektrikář,jobs
-lawyer,avocat,Avvocato,abogado,Anwalt/Anwältin,prawnik,právníci,jobs
-psychologist,Psychologue,psicologo,psicólogo/a,Psychologe,PSYCHOLOG,psychologové,jobs
-pharmacist,Pharmaciens,farmacista,farmacéutico,Apotheker,farmaceuta,farmaceuti,jobs
-bookkeeper,teneur de livres,Contabile,contable,verbuchter,Księgowość,Účetní,jobs
-employee,Employé(e),dipendente,empleado,Angestellter,pracownik,zaměstnanec,jobs
-Marketing,Marketing,Marketing,Marketing,Marketing,Marketing,Marketing,jobs
-gardener,jardinier,giardiniere,técnico en jardinería,Gärtner,ogrodnik,zahradník,jobs
-nurse,Infirmier,Infermiere,enfermera,Krankenschwester/-pfleger,PIEL. ,ošetřovatelky,jobs
-dentist,Dentiste,Dentista,odontólogo (ocupación),Zahnarzt/Zahnärztin ,Lekarz Stomatolog,zubní lékaři,jobs
-architect,architecte,Architetto,arquitecto,Architekt*in,Architekt ,V. 7 ARCHITEKTI,jobs
-cleaner,femme de ménage,pulitore ,limpiador,Reiniger ,lancet narzędzie formierskie,Čistič,jobs
-postman,facteur,Portalettere,cartero,Postman,listonosz,česky, biotop.,jobs
-teacher,enseignante,Docente,profesor,Lehrer*in,teacher,instruktor,jobs
-woman,femme,donna,mujer,Frau,kobieta,Dámský,jobs
-employer,employer,Azienda,empleador,arbeitgeber,Pracownik,zaměstnavatel,jobs
-accountant,comptable,contabile,contable,Eti!,księgowy/księgowa,účetní,jobs
-judge,juge,Giudice,juzgadora,Richter*in,sędzia,soudce,jobs
-photographer,photographe,Fotografo,fotógrafo,Fotograf*in,fotograf,fotograf,jobs
-surgeon,chirurgien,Chirurgo,cirujano,Chirurg*in,chirurg,Chirurg 1004,jobs
-optician,opticien,Ottico,Optician NOS,Optiker*in,optyk,oční optik,jobs
-predisposition,génétique,Pre-disposizione,predisposición,Prädisposition,Diateza,Náchylnost k nemoci,jobs
-musician,musicien,Musicista,músico,Musiker*in,muzyk,muzikant,jobs
-butcher,boucher,Macellaio,elaborador de productos cárnicos,Fleischer*in,rzeźnik,Řezník,jobs
-developer,Développeur,sviluppatore,desarrollador,Entwickler,Autor,Java developer,jobs
-fisherman,pêcheur,Pescatore,Fisherman NOS,Fischer*in,rybaka,,Rybář,jobs
-economist,économiste,economist,economista (ocupación),Wirtschaftswissenschaftler*in,ekonomista,ekonom,jobs
-mechanic,mécanicien,meccanico,mecánico ,Mechaniker,mechanik,mechanika,jobs
-journalist,journaliste,Giornalista,autor/escritor/periodista, SAI,Journalist*in,dziennikarz,žurnalista,jobs
-designer,concepteur,designer,diseñador,Designer*in,projektant,designer,jobs
-engineer,ingénieur,Ingegnere,del proyecto,Ingenieur,inżynier,Inženýr,jobs
-baker,boulangère,Panettiere,panadero, general,Bäcker*in,piekarz,Pekař 678,jobs
-librarian,bibliothécaire,bibliotecario,bibliotecario,Bibliothekar,Bibliotekarze,knihovníci,jobs
-pilot,pilote,sito pilota,piloto,Pilot,pilotażowy,pilot,jobs
-scientist,Scientifique,Scienziato,científico,Wissenschaftler*in,naukowiec,vědecký pracovník,jobs
-shifts,changements ,turni,turnos,shifts,w godzinach nocnych,Směny,jobs
-painter,Peintre,Imbianchino,pintor (ocupación),Maler*in,malarz,malíř,jobs
-secretary,secrétaire,Segretario,Secretario,Sekretär*in,sekretarz,tajemník,jobs
-tailor,tailleur sur mesure,Sarto,un costurero,Schneider*in,krawiec,krejčí,jobs
-physician,médecin,medico,Profesional,-Med.,lekarz,lékaři,jobs
-translator,traducteur,Traduttore,Traductora,Übersetzer,tłumacz,překladatel,jobs
-writer,émetteur,Scrittore,escritor,Schriftsteller*in,pisarz,Scénář,jobs
-builder,builder,Costruttore,constructor,Bauarbeiter*in,builder,Tvůrce,jobs
-filmmaker,Cinéaste,regista,Producción audiovisual,Filmproduzent,twórca filmowy,Filmová produkce,jobs
-artist,artiste,artista,artista,Künstler,artysta,umelec,jobs
-Finance,Finance,Addetto al settore finanziario,Finanzas,Finanzabteilung,Finanse,Finance,jobs
-doctor,médecin,Medico,doctor/a,Doktor*in,lekarz,lekar,jobs
-editor,rédacteur,Redattore,editor,Redakteur*in,edytor,redaktor,jobs
-veterinarian,Vétérinaires,veterinario,el veterinario,Tierarzt,Lekarze weterynarii,veterináři,jobs
-neutralne,neutralne,neutralne,neutralne,neutralne,neutralne,neutralne,jobs
-receptionist,Réceptionniste,Centralinista,recepcionista,Rezeptionist,Recepcja,Recepce,jobs
-cashier,caissier,cassa,cajero,Kassierer,kasjer,Pokladní,jobs
-barber,barbier,Barbiere,barbero,Barbier,BARBER,Barber,jobs
-soldier,soldat,Militare,peona,Soldat*in,żołnierz,vojáci,jobs
-florist,FLEURISTE,fiorista,floricultor,Florist/Floristin,FLORYSTA,květinová služba,jobs
-Manufacturing,Fabrication,Produzione,Fabricación,Herstellung,Produkcja,Výroba,jobs
-carpenter,charpentier,carpentiere,lo bailanh lash rocha tambh las chetààh,Zimmermann,cieśla,tesař,jobs
-model,modèle,modello,modelo,Modell,model,model,jobs
-plumber,plombier,Idraulico,fontanero,Klempner*in,hydraulik ,Instalatér,jobs
-attorney,avocat,procuratore ,letrado,Rechtsanwältin,Cgmt12„,_,plné moci,jobs
-farmer,cultivateur,Agricoltore,agricultor,Bauer/Bäuerin,rolnik,zemědělec,jobs
-professor,professeur,docente,catedrático,Professor, profesor,Profesor,jobs
-astronomer,astronome,astronomo,astrónomo,Astronom,Astronom,Astronom,jobs
-singer,chanteuse,Cantante,cantante,Sänger*in,śpiewak,zpěvák,jobs
-lifeguard,maître-nageur,bagnino,teniente,Rettungsschwimmer(in),*	ratownik wodny,Plavčík,jobs
-bartender,barman,barman,barman,Barmixer,* barman,Barman/ka,jobs
-banker,plateau pour gâcher,banchiere,plano para amasar el mortero,BANKER,stół kamieniarski,Banka,jobs
-karting,Karting,Karting,· Karting,Karting,karting,motokáry,hobbies
-cheerleading,Majorettes,Cheerleading,Animadoras,Cheerleading,Cheerleading,Cheerleading,hobbies
-gambling,pari,giochi e scommesse,el juego,Glücksspiel,hazard,Hráčství,hobbies
-pottery,poterie,lavorazione della ceramica,alfarería,Keramik,wyroby ceramiczne,hrnčířství,hobbies
-blogging,blogging,Blog,blogueo,Blogging,Ludzie są DZIWNI.,blogování,hobbies
-windsurfing,Planche à voile,Windsurf,Windsurf,Windsurfing,windserferów,Windsurfing,hobbies
-collecting,perception,raccogliere,recopilación,Absaugung,zbierająca,sběr,hobbies
-knitting,tricotage,lavorazione a maglia,fabricación de géneros de punto,Stricken,przerabiać,pletení,hobbies
-skydiving,Du parachutisme,Paracadutismo,Caída libre,Fallschirmspringen,Spadochroniarstwo,Parašutismus,hobbies
-to doodle,gribouiller,scarabocchiare,garabatear,zum Kritzeln,bazgrać,čmárat,hobbies
-scuba diving,plongée à l'air,Immersioni,submarinismo,Gerätetauchen,Nurkowanie,Přístrojové potápění,hobbies
-mountain biking, VTT,mountain bike,Ciclismo de montaña,Mountain Bike Tour,Kolarstwo górskie,Horská kola,hobbies
-leisure,loisir, temps libre,leisure,ocio,Freizeit,rekreacja,Volný čas,hobbies
-window shopping,Lèche-vitrines,Osservare le vetrine,Ventana de compras,Einkaufsbummel,zakupy przy oknie,okenní nákupy,hobbies
-hunting,chasse,,possibilità di cacciare,caza,Jagd,łowiectwo,myslivost,hobbies
-sketching,Esquisse,Schizzo,boceto,Entwurf,szkicowanie,skicování,hobbies
-traveling,Voyage,Viaggiare,traveling,-,pordóże,cestování,hobbies
-journaling,historique,esecuzione del journal,escribiendo un diario,Journal, Buchungs,Dziennik. ,Pište si deník. ,hobbies
-pastime,passe-temps, divertissement, distraction,Hobby,114.,Hobby,Hobby,Hobby,hobbies
-birdwatching,Observation ornithologique,birdwatching,Observación de aves,Vogelbeobachtung,Obserwacja ptaków,Pozorování ptáků,hobbies
-origami,origami,Origami,papiroflexia,Origami,Origami,origami,hobbies
-clubbing,Hippocratisme,discoteche,Dedos en palillos de tambor,Uhrglasnaegel,Clubbing,Paličkovité prsty,hobbies
-backpacking,bourlinguer en sac à dos,escursione,excursión con mochila,Backpacking,Wędrówki z plecakiem,trampování,hobbies
-meditation,méditation,meditazione,meditation,-,medytacja,meditace,hobbies
-cocoa,cacao,cacao,Cacao,Kakao,Kakao,kakaovník pravý,drinks
-beer,bière,portata di fili,cerveza,Bier,piwo,pivo,drinks
-still,toujours,ancora,todavía,-,GORZELNIA,nehlučný,drinks
-latte,Latte,Latte,LATTE ,Milch,kawa latte,Cafe latte,drinks
-brandy,cognac,brandy,brandy,Weindestillate:,winiak,brandy,drinks
-drink,boisson,bevande,bebida,Getränke,pić,nápoj,drinks
-alcoholic,Alcoolique,alcolizzato,alcohólico,alkoholisch,alkoholik,alkoholik,drinks
-wine,vin,rosso,vino,Wein,wino,víno,drinks
-nonalcoholic,sans alcool,analcolico,· Sin alcohol,alkoholfrei,bezalkoholowe,nealkoholické,drinks
-whiskey,whisky,Whisky,whisky,des Hauses,Whiskey,whiskey,drinks
-beverage,boisson/boissons,bevande,bebida,Getränk,napoje,nápoje,drinks
-milkshake,milk-shake,frappé,Batido de leche,Milchshake,koktajl mleczny,mléčný koktejl,drinks
-cocktail, cocktail,cocktail,cóctel,Cocktail,Koktajl,koktejl,drinks
-Tonic,Tonifiant,Tonificante,Tónico,Kräftigend,Płynna Adrenalina,Tonikum,drinks
-energy drink,boisson énergétique,bevanda energetica,Bebida energética,energiegetränk,Napój energetyczny,energetické nápoje,drinks
-smoothie,smoothie,ricette,batido,Smoothie,Smoothie,smoothie,drinks
-Champagne,Champagne,Champagne,Champagne,Champagner,Szampan,Šampaňské,drinks
-sparkling,pétillante,frizzante,con gas,sprudelnd,lśniący,šumivé),drinks
-soft drink,soda,bibita analcolica,bebida sin alcohol,alkoholfreies Getränk,napój,nealkoholický nápoj,drinks
-vodka,la vodka,vodka,vodka,Wodka,wódka,Vodka,drinks
-espresso,Expresso,caffè espresso,EXPRESO,Espresso,espresso,Espresso,drinks
-to drink,boire,bere,para beberla.,trinken,Pić,pít,drinks
-tequila,tequila,tequila,Tequila,Tequila,36 % MIN. 0,68 EUR/ % obj./hl + 4,05 EUR/hl,Tequila,drinks
-lemonade,limonade,limonata,bebida carbonatada con sabor a limón,Limonade,lemoniada,Limonáda,drinks
-soda,Soude,Soda,Sosa,SPRUDEL,napój gazowany,hydroxid sodný,drinks
-Coca-Cola,Coca-Cola,Coca-Cola,Coca-Cola,Coca-Cola,Coca-Cola,Coca-Cola,drinks
-alcohol,l'alcool,alcol,alcohol,alkohol,alkohol,alkoholu,drinks
-mineral water,eau minérale,acqua minerale,aguas minerales,MINERALWASSER,woda mineralna,minerální vody,drinks
-house,Logement,casa,casa,Haus,dom,dum,partsOfHouse
-roof,voûte,tetto,techo,Dach,dach,střecha,partsOfHouse
-chimney,cheminée,camino,chimenea,Schornstein,Komin,Komín,partsOfHouse
-window,transparente,finestra,ventana,Fenster,okno,okno,partsOfHouse
-door,porte,A,puerta,Tür,drzwi,dveře,partsOfHouse
-balcony,Balcon,Balcone,balcón,Balkon,balkon,lodžie,partsOfHouse
-garage,garage,garage,garaje,Garage,garaż,garáž,partsOfHouse
-driveway,allée,Viale di accesso,entrada de coches,Zufahrt,Podjazd,Driveway,partsOfHouse
-yard,jardin,yard,yardas cúbicas (calificador),Yard,jard,věst.,partsOfHouse
-letterbox,cadre,信箱,formato de pantalla ancha,Briefkasten,letterbox,vodorovné pruhy,partsOfHouse
-path,chemin,path,path,Verlauf,ścieżka,cesta,partsOfHouse
-attic,attique,Attico,ático,Dachboden,strychy,Půda,partsOfHouse
-bedroom,chambre,camera da letto,cuarto,Schlafzimmer,łazienka,ložnice,partsOfHouse
-bathroom,salle de bains,bagno,baño,Badezimmer,łazienka,koupeln. část,partsOfHouse
-nursery (room),Chambre d'enfant,Cameretta dei bambini,un cuarto de bebé,kinderzimmer (Zimmer),żłobek (pokój),školka (pokoj),partsOfHouse
-home office,bureau à domicile,sede centrale,oficina en casa,Home Office,domowe biuro,home office,partsOfHouse
-living room,salon,salotto,sala,Wohnzimmer,pokój dzienny,Obývací pokoj,partsOfHouse
-dining room,salle à manger/la salle à manger,sala da pranzo,comedor,Esszimmer,jadalnia,jídelna,partsOfHouse
-kitchen,Cuisine,cucina,cocina,Küche,kuchnia,KUCHYNĚ,partsOfHouse
-laundry room,Buanderie,Lavanderia ,Lavandería ,Wäschekammer,pralnia,Prádelna,partsOfHouse
-basement,sous-sol,interrato,sótano,basement,piwnica,PP,partsOfHouse
-garage,garage,garage,garaje,Garage,garaż,garáž,partsOfHouse
-amateur,amateur,dilettantistiche,leche,,Amateur,nadajnik   odbiornik radioamatora,Amatér,partsOfHouse
-arena,arène,Arena,ámbito,Arena,ARENA,arena,partsOfHouse
-athletic,Activités athlétiques,atletica,atlético,Athletisch,Atletyczny,Atletická,partsOfHouse
-backboard,panneau,Backboard,Tabla Espina!.,Brett,TYLNA CZĘŚĆ,deska,partsOfHouse
-backhand,revers,Rovescio,retroiluminación,Rückhand,pismo pochylone w tył,Bekhend,partsOfHouse
-batter,1 cuillère à café d’extrait de vanille,scarpa,batter,Neigung,rozbijać,těsto,partsOfHouse
-baseball,le base-ball,baseball,el béisbol,Baseball,baseball,baseball,partsOfHouse
-basketball,le basket-ball,pallacanestro,baloncesto,Basketball,Koszykówka,basketbal,partsOfHouse
-bench,banc,panca,banquillo,Bank,ławka rezerwowych,Spodní rám,partsOfHouse
-catcher,piège,ricuperatore,Catcher,Fänger,chwytacz,Stavítko,partsOfHouse
-champion,Champion,sogetto campione,campeón,Champion,mistrz,šampion, vítěz,partsOfHouse
-championship,championnat,campionato,el campeonato, ,mistrzostwa,mistrovství,partsOfHouse
-coach,coach,formatore,entrenador,30-minütige Sitzung mit Ihrem Karrierecoach,coach,autobus,partsOfHouse
-competitive,avantage,agonistica,competidor ,wettbewerbsfähig,współzawodniczący,konkurenceschopný,partsOfHouse
-defense,la défense,difesa,Defensa,Verteidigung,obrona,obrana,partsOfHouse
-doubles,double,RADDOPPIA,dobles,doppelt,arkusze blachy walcowane na gorąco po zdwojeniu,dvojnásobek,partsOfHouse
-dribble,dribble,Dribble,Dribble,dribbeln,dryblować,Slintání,partsOfHouse
-dugout,Monoxyle,dugout,canoa,Trainerbank,Łódź jednopienna,Zemnice,partsOfHouse
-fan,ventilateur&#10;fan,Ventola,Ventilador,Fan,wentylator,ventilátor,partsOfHouse
-field goal,panier marqué,calcio piazzato,Field goal,Field Goal,cel terenowy,terénní cíl,partsOfHouse
-finish line,en sprint ?,Linea darrivo,una meta visible. ,Ziellinie: ,linia mety,Finish Line,partsOfHouse
-football,le football,calcio,fútbol,Fußball,Piłka nożna,fotbal,partsOfHouse
-forehand,Side-arm ,TRENO ANTERIORE,RECOGER DE DERECHA,Vorþehand-,Forehand,Forhend,partsOfHouse
-free throw,lancer-franc,Tiro libero,Tiro libre,freiwurf,Rzut osobisty,Volný hod,partsOfHouse
-goal,objectif,obiettivo,objetivo,Vorgabe,cel,cíl,partsOfHouse
-goal line,Ligne de but,linea di meta,Línea de meta,Todlinie,linia bramkowa,cílová čára,partsOfHouse
-goalkeeper,GARDIEN DE BUT,Portiere,Portero,Torhüter,narzędzie zarządzania zdolnościami cywilnymi,nástroj pro řízení civilních schopností,partsOfHouse
-goalpost,But,goalpost,Gol,torpfosten,goalpost,Gól,partsOfHouse
-grand slam,Grand Chelem,Gran colpo. ,Grand Slam,Grand Slam,grand slam,grand slam,partsOfHouse
-half time,mi temps,Primo tempo,Descanso,Halbzeit,Połowa,Poločas,partsOfHouse
-Trumpet,Trompette,Tromba,la trompeta,Trumpet,Trąbki,Trubka,instruments
-Tuba,Tuba,Tuba,Tuba,Tuba,Tuby,Tuba,instruments
-Trombone,Trombone,Trombone,Trombón,Trombone,Puzony,Pozoun,instruments
-French horn,Cor français,Corno,Trompa,Waldhorn,Rożki francuskie,Lesní roh,instruments
-Bugle,Bugle,Tromba,Corneta,Bugle,Trąbka sygnałowa,Ajuga,instruments
-Cornet,Cornet,Cornetta,Corneta,Cornet,Kornet,Kornet,instruments
-Euphonium,Euphonium,Eufonio,Bombardino,Euphonium,Eufonium,Eufonium,instruments
-Flugelhorn,Bugle,Flicorno soprano,Fliscorno,Flugelhorn,Flugelhorn,Křídlovka,instruments
-Mellophone,Mellophone,Mellophone,Mellophone,Mellophon,Mellophone,Mellofon,instruments
-Sousaphone,Soubassophone,Sousafono,Sousafón,Sousaphon,Suzafon,Suzafon,instruments
-Violin,Violon,Violino,el violín,Violin,Skrzypce,Housle,instruments
+word,fr,it,es,de,pl,cs,category
+train station,gare,stazione ferroviaria,Estación de tren,Bahnhof,Dworzec kolejowy,vlakové nádraží,places_in_town
+supermarket,supermarché,supermercato,supermercado,Supermarkt,supermarket,supermarket,places_in_town
+museum,musée,museo,museo,Museum,muzeum,muzeum,places_in_town
+post office,bureau de poste,ufficio postale,oficina de correos,Postamt,poczta,pošta,places_in_town
+school,école,scuola,escuela,Schule,szkoła,škola,places_in_town
+theatre,théâtre,teatro,teatro,Theater,teatr,divadlo,places_in_town
+park,parc,parco,parque,Park,park,park,places_in_town
+restaurant,restaurant,ristorante,restaurante,Restaurant,restauracja,restaurace,places_in_town
+bank,banque,banca,banco,Bank,bank,banka,places_in_town
+hospital,hôpital,Ospedale,hospital,Krankenhaus,szpital,NEMOCNICE,places_in_town
+Post offices,Bureaux de poste,Uffici postali,Oficinas de correos,Postämter,Urzędy pocztowe,Poštovní úřady,places_in_town
+bus station,gare routière,stazione degli autobus,estación de autobuses,Busbahnhof,Dworzec autobusowy,autobusové nádraží,places_in_town
+library,bibliothèque,biblioteca,biblioteca,Bibliothek,biblioteka,knihovna,places_in_town
+employee,employé,dipendente,empleado,Mitarbeiter,pracownik,zaměstnanec,jobs
+employer,employeur,datore di lavoro,empleador,Arbeitgeber,pracodawca,zaměstnavatel,jobs
+shifts,décalages,turni,turnos,Schichten,zmiany,směny,jobs
+journaling,journalisation,tenere un diario,diario,Tagebuch führen,dziennikarstwo,žurnálování,hobbies
+sketching,esquisse,schizzo,bosquejando,Skizzierung,szkicowanie,skicování,hobbies
+to doodle,gribouiller,scarabocchiare,garabatear,kritzeln,rysować,čmárat,hobbies
+karting,karting,karting,karting,Kartfahren,karting,motokáry,hobbies
+backpacking,randonnée,zaino in spalla,Mochilero,Rucksackreisen,plecakowanie,turismus,hobbies
+hunting,chasse,a caccia,caza,Jagd,polowanie,lov,hobbies
+traveling,voyages,viaggiare,de viaje,Reisen,podróżny,cestování,hobbies
+clubbing,sortir en boîte,andare in discoteca,discotecas,Clubbing,klubowanie,klubování,hobbies
+collecting,collectionner,collezionare,coleccionando,Sammeln,zbieranie,sbírání,hobbies
+skydiving,parachutisme,paracadutismo,paracaidismo,Fallschirmspringen,skydiving,skydiving,hobbies
+birdwatching,observation des oiseaux,osservazione degli uccelli,ornitología,Vogelbeobachtung,obserwowanie ptaków,pozorování ptactva,hobbies
+gambling,jeu d&#39;argent,gioco d&#39;azzardo,juego,Glücksspiel,hazard,hazardní hry,hobbies
+leisure,loisirs,tempo libero,ocio,Freizeit,wypoczynek,volný čas,hobbies
+meditation,méditation,meditazione,meditación,Meditation,medytacja,rozjímání,hobbies
+window shopping,lèche-vitrine,vetrine,mirando escaparates,Schaufensterbummel,oglądanie wystaw sklepowych,výlohy,hobbies
+knitting,tricot,maglieria,tejido de punto,Stricken,dzianie,pletení,hobbies
+origami,origami,origami,origami,Origami,origami,origami,hobbies
+scuba diving,Plongée sous-marine,immersioni in subacquea,submarinismo,Gerätetauchen,nurkowanie,potápění,hobbies
+windsurfing,planche à voile,windsurf,tabla a vela,Windsurfen,windsurfing,surfování,hobbies
+blogging,blogging,bloggare,bloguear,Bloggen,blogowanie,blogování,hobbies
+pastime,divertissement,passatempo,pasatiempo,Zeitvertreib,rozrywka,zábava,hobbies
+pottery,poterie,ceramica,cerámica,Keramik,garncarstwo,hrnčířství,hobbies
+mountain biking,VTT,mountain bike,Ciclismo de montaña,Mountainbiken,kolarstwo górskie,horská kola,hobbies
+cheerleading,cheerleading,fare il tifo,Animadoras,Cheerleading,cheerleading,cheerleading,hobbies
+beer,bière,birra,cerveza,Bier,piwo,pivo,drinks
+soda,soude,soda,soda,Soda,soda,soda,drinks
+whiskey,whisky,whisky,whisky,Whiskey,whisky,whisky,drinks
+smoothie,smoothie,frullato,zalamero,Smoothie,pochlebca,smoothie,drinks
+cocktail,cocktail,cocktail,cóctel,Cocktail,koktajl,koktejl,drinks
+vodka,vodka,vodka,vodka,Wodka,wódka,vodka,drinks
+tequila,tequila,tequila,tequila,Tequila,tequila,tequila,drinks
+mineral water,eau minérale,acqua minerale,agua mineral,Mineralwasser,woda mineralna,minerální voda,drinks
+soft drink,boisson gazeuse,bibita analcolica,Bebida sin alcohol,Erfrischungsgetränk,napój bezalkoholowy,nealkoholický nápoj,drinks
+Tonic,Tonique,Tonico,Tónico,Tonic,Tonik,Tonikum,drinks
+Coca-Cola,Coca-Cola,Coca-Cola,Coca-cola,Coca Cola,Coca-Cola,Coca-Cola,drinks
+to drink,boire,bere,beber,trinken,pić,pít,drinks
+latte,latté,latte macchiato,café con leche,Latte,latte,latte,drinks
+still,toujours,Ancora,aún,Trotzdem,Nadal,stále,drinks
+nonalcoholic,sans alcool,analcolico,no alcohólico,Alkoholfrei,bezalkoholowy,nealkoholický,drinks
+cocoa,cacao,cacao,cacao,Kakao,kakao,kakao,drinks
+beverage,boisson,bevanda,bebida,Getränk,napój,nápoj,drinks
+alcohol,alcool,alcol,alcohol,Alkohol,alkohol,alkohol,drinks
+wine,vin,vino,vino,Wein,wino,víno,drinks
+sparkling,pétillant,frizzante,espumoso,funkelnd,musujący,šumivé,drinks
+drink,boire,bere,beber,trinken,drink,pití,drinks
+brandy,Brandy,brandy,brandy,Brandy,brandy,brandy,drinks
+Champagne,Champagne,Champagne,Champán,Sekt,Szampan,Šampaňské,drinks
+lemonade,limonade,limonata,limonada,Limonade,lemoniada,limonáda,drinks
+alcoholic,alcoolique,alcolizzato,alcohólico,alkoholisch,alkoholowy,alkoholik,drinks
+espresso,espresso,espresso,café exprés,Espresso,espresso,espresso,drinks
+milkshake,milk-shake,frappè,batido,Milchshake,koktajl mleczny,mléčný koktejl,drinks
+energy drink,boisson énergisante,bevanda energetica,bebida energética,Energiegetränk,napój energetyczny,energetický nápoj,drinks
+house,maison,casa,casa,Haus,dom,dům,partsOfHouse
+roof,toit,tetto,techo,Dach,dach,střecha,partsOfHouse
+chimney,cheminée,camino,tubo de lámpara,Schornstein,komin,komín,partsOfHouse
+window,fenêtre,finestra,ventana,Fenster,okno,okno,partsOfHouse
+door,porte,porta,puerta,Tür,drzwi,dveře,partsOfHouse
+balcony,balcon,balcone,balcón,Balkon,balkon,balkón,partsOfHouse
+garage,garage,garage,cochera,Garage,garaż,garáž,partsOfHouse
+driveway,allée,vialetto,entrada de coches,Auffahrt,podjazd,příjezdová cesta,partsOfHouse
+yard,cour,cortile,patio,Hof,dziedziniec,yard,partsOfHouse
+letterbox,boîte aux lettres,cassetta delle lettere,buzón,Briefkasten,skrzynka na listy,poštovní schránka,partsOfHouse
+path,chemin,sentiero,camino,Weg,ścieżka,cesta,partsOfHouse
+attic,grenier,attico,ático,Dachboden,strych,podkroví,partsOfHouse
+bedroom,chambre à coucher,camera da letto,dormitorio,Schlafzimmer,sypialnia,ložnice,partsOfHouse
+bathroom,salle de bain,bagno,baño,Badezimmer,łazienka,koupelna,partsOfHouse
+nursery (room),chambre d&#39;enfant (chambre),stanza dei bambini (stanza),cuarto de niños,Kinderzimmer,pokój dziecięcy (pokój),školka (pokoj),partsOfHouse
+home office,bureau à domicile,ufficio a casa,oficina en casa,Innenministerium,ministerstwo spraw wewnętrznych,domácí kancelář,partsOfHouse
+living room,salon,soggiorno,sala de estar,Wohnzimmer,salon,obývací pokoj,partsOfHouse
+dining room,salle à manger,sala da pranzo,comedor,Esszimmer,jadalnia,jídelna,partsOfHouse
+kitchen,cuisine,cucina,cocina,Küche,kuchnia,kuchyně,partsOfHouse
+laundry room,buanderie,lavanderia,cuarto de lavado,Waschküche,pralnia,prádelna,partsOfHouse
+amateur,amateur,dilettante,aficionado,Amateur,amator,amatér,partsOfHouse
+arena,arène,arena,arena,Arena,arena,aréna,partsOfHouse
+athletic,athlétique,atletico,atlético,sportlich,atletyczny,atletický,partsOfHouse
+backboard,panneau,tabellone,respaldo,Rückwand,tablica,zadní deska,partsOfHouse
+backhand,revers,rovescio,revés,Rückhand,bekhend,backhand,partsOfHouse
+batter,battre,pastella,bateador,Teig,rzadkie ciasto,těsto,partsOfHouse
+baseball,base-ball,baseball,béisbol,Baseball,baseball,baseball,partsOfHouse
+basketball,basket-ball,pallacanestro,baloncesto,Basketball,koszykówka,basketball,partsOfHouse
+bench,banc,panca,banco,Bank,ławka,lavice,partsOfHouse
+catcher,receveur,ricevitore,receptor,Fänger,łapacz,lapač,partsOfHouse
+champion,champion,campione,campeón,Champion,mistrz,mistr,partsOfHouse
+championship,championnat,campionato,campeonato,Meisterschaft,mistrzostwo,mistrovství,partsOfHouse
+coach,entraîneur,allenatore,entrenador,Trainer,trener,trenér,partsOfHouse
+competitive,compétitif,competitivo,competitivo,wettbewerbsfähig,konkurencyjny,konkurenční,partsOfHouse
+defense,défense,difesa,defensa,Verteidigung,obrona,obrana,partsOfHouse
+doubles,double,doppi,dobles,Doppel,debel,čtyřhra,partsOfHouse
+dribble,dribble,dribblare,regatear,dribbeln,dryblować,driblovat,partsOfHouse
+dugout,pirogue,panchina,refugio subterráneo,Einbaum,ziemianka,zákop,partsOfHouse
+fan,ventilateur,fan,admirador,Lüfter,wentylator,větrák,partsOfHouse
+field goal,but sur le terrain,obiettivo di campo,gol de campo,Feldtor,gol polowy,field goal,partsOfHouse
+Trumpet,Trompette,Tromba,Trompeta,Trompete,Trąbka,Trubka,instruments
+Tuba,Tuba,Tuba,Tuba,Tuba,Tuba,Tuba,instruments
+Trombone,Trombone,Trombone,Trombón,Posaune,Puzon,Pozoun,instruments
+French horn,Cor français,Corno francese,Trompa francesa,Waldhorn,Róg francuski,lesní roh,instruments
+Bugle,Clairon,Tromba,Bugle,Horn,Dąbrówka,Polnice,instruments
+Cornet,Cornet,Cornetta,Cucurucho,Kornett,Kornet,Kornet,instruments
+Euphonium,Euphonium,Eufonio,Eufonio,Euphonium,Eufonium,Euphonium,instruments
+Flugelhorn,Bugle,Flicorno,Fliscorno,Flügelhorn,Flugelhorn,křídlovka,instruments
+Mellophone,Mellophone,Mellofono,Melófono,Mellophon,Melofon,Mellofon,instruments
+Sousaphone,Soubassophone,Sousafono,Sousafón,Sousaphon,Suzafon,Sousaphone,instruments
+Violin,Violon,Violino,Violín,Violine,Skrzypce,Housle,instruments
 Guitar,Guitare,Chitarra,Guitarra,Gitarre,Gitara,Kytara,instruments
-Cello,Violoncelle,Violoncello,el violoncelo,Cello ,Wiolonczela,Violoncello,instruments
-Harp,Harpe,Arpa,Harp,Harp,Harfa,Harfa,instruments
-Double bass,Contrebasse,Contrabbasso,Con trabajo,Kontrabass,Kontrabasu,Basa,instruments
-Viola,Viola,Viola,Viola,Viola,Viola,Viola,instruments
-Mandolin,Mandoline,Mandolino,Mandolina,Mandolin,Mandolina,Mandolína,instruments
+Cello,Violoncelle,Violoncello,Violonchelo,Cello,Wiolonczela,Cello,instruments
+Harp,Harpe,Arpa,Arpa,Harfe,Harfa,Harfa,instruments
+Double bass,Contrebasse,Contrabbasso,Contrabajo,Kontrabass,Kontrabas,Kontrabas,instruments
+Viola,Alto,Viola,Viola,Viola,Altówka,Viola,instruments
+Mandolin,Mandoline,Mandolino,Mandolina,Mandoline,Mandolina,Mandolína,instruments
 Ukulele,Ukulélé,Ukulele,Ukelele,Ukulele,Ukulele,Ukulele,instruments
-Banjo,Banjo,Banjo,Banjo,Banjo,Bandżo,Banjo,instruments
-Lute,Luth,Liuto,Laúd,Lute,Lutnia,Loutna,instruments
-Drums,Percussions,Batteria,la batería,Drums,Bębny,Brzdové bubny,instruments
-Tambourine,Tambourin,Tamburello,Pandereta,Tamburin,Bębenek baskijski,Tamburína,instruments
-Maracas,Maracas,Maracas,Maracas,Maracas,Marakasy,Rumba koule,instruments
-Xylophone,Xylophone,Xilofono,Xilófono,Xylofon,Ksylofon,Xylofon,instruments
-Cymbals,Cymbales,Cimbali,Platillos,Cymbals,Talerze,Činely,instruments
-Bongos,Bongos,Bonghi,Los bongos,Bongos,Bongosy,Bonga,instruments
-Congas,Congas,Congas,congas,Congas,Conga,konga,instruments
-Triangle,Triangle,Triangolo,Triángulo,Dreieck,Trójkąt,Trojúhelník,instruments
-Cowbell,Cloche,Campanacci,Cencerro,Kuhglocke,Dzwonek krowi,Cowbell,instruments
-Gong,Gong,Gong,Gong,Gong,Gong,Gong,instruments
-Flute,Flûte traversière,Flauto,Flauta,Flute,Rowek,Flétna,instruments
-Clarinet,Clarinette,Clarinetto,el clarinete,Clarinet,Klarnety,Klarinet,instruments
-Oboe,Hautbois,Oboe,Oboe,Oboe,Oboje,Hoboj,instruments
-Saxophone,Saxophone,Sassofono,Saxofón,Saxophone,Saksofony,Saxofon,instruments
-Bassoon,Basson,Fagotto,Fagot,Fagott,Fagoty,Fagot,instruments
-Piccolo,Piccolo,Ottavino,Flautín,Piccolo,Flet piccolo,Pikola,instruments
-Bass,Basse,Bass,Bajo,Bass,Niskie,Okoun,instruments
-clarinet,clarinette,clarinetto,clarinete,Klarinette,Klarnety,klarinet,instruments
-English horn,Cor anglais,Corno inglese,Corno inglés@item: inlistbox,Englischhorn,English Horn,Anglický roh@ item: inlistbox,instruments
-Recorder,Enregistreur,Registratore,Grabadora,Recorder,Rejestrator,Rekordér,instruments
-Contrabassoon,Contrebasson,Controfagotto,Contrafagot,Kontrafagott,Contrabassoon,Kontrabassoon,instruments
-Piano,Piano,Pianoforte,Piano,Piano,Fortepian,Klavír,instruments
-Organ,Organe,Organo,Órgano,Organ,Narząd,Orgán,instruments
-Synthesizer,Sybthétiseur,Sintetizzatore,Sintetizador,Synthesizer,Syntezator,Syntezátor,instruments
-Accordion,Accordéon,Fisarmonica,Acordeón,Akkordeon,Akordeon,Akordeon,instruments
-Harpsichord,Clavecin,Clavicembalo,Clavicordio,Harpsichord,Klawesyn,Cembalo,instruments
-Clavichord,Clavicorde,Clavicordo,Clavicordio,Clavichord,Klawikord,Klavichord,instruments
-Celesta,Célesta,Celesta,Celesta,Celesta,Czelesta,Celesta,instruments
-Spinet,Épinette,spinetta,Espineta,Spinett,Szpinet,Spinet,instruments
-Melodica,Mélodica,Melodica,Melódica,Melodica,Harmonijka klawiszowa,Melodika,instruments
-Digital,Numérique,Digitale,Acreditación,Digital,Spotkanie wirtualne,Digitální,instruments
-piano,piano,pianoforte,piano,Klavier,Fortepian,klavír,instruments
-Computer,Ordinateur,Computer,en ordenadores,Computer,Komputer,Počítač,technology
-Internet,L'internet,Internet,Internet,Internet,Internet,Internet,technology
-Software,Logiciel,Software,Software,Software,Oprogramowanie (x264),Software,technology
-Hardware,Hardware,Hardware,Hardware,Hardware,Sprzęt,Hardware,technology
-Digital,Numérique,Digitale,Acreditación,Digital,Spotkanie wirtualne,Digitální,technology
-Analog: a,Analogique : a,Analogico: a,Analógico: a,Analog: a,Analogowy: a,Analog: a,technology
-Processor,Processeur,Processore,Procesador,Prozessor,Podmiot przetwarzający,Procesor,technology
+Banjo,Banjo,Banjo,Banjo,Banjo,Banjo,Bendžo,instruments
+Lute,Luth,Liuto,Laúd,Laute,Lutnia,Loutna,instruments
+Computer,Ordinateur,Computer,Computadora,Computer,Komputer,Počítač,technology
+Internet,Internet,Internet,Internet,Internet,Internet,Internet,technology
+Software,Logiciel,Software,Software,Software,Oprogramowanie,Software,technology
+Hardware,Matériel,Hardware,Hardware,Hardware,Sprzęt komputerowy,Železářské zboží,technology
+Digital,Numérique,Digitale,Digital,Digitales,Cyfrowy,Digitální,technology
+Analog: a,Analogique : un,Analogico: un,Analógico: a,Analog: ein,Analogowy: a,Analogové: a,technology
+Processor,Processeur,Processore,Procesador,Prozessor,Edytor,Procesor,technology
 Server,Serveur,Server,Servidor,Server,Serwer,Server,technology
-URL,URL,URL,URL,URL,Adres URL,URL,technology
+URL,URL,Indirizzo URL,URL,URL,Adres URL,URL,technology
 Operating System,Système opérateur,Sistema operativo,Sistema operativo,Betriebssystem,System operacyjny,Operační systém,technology
-Peripheral,Périphériques,Periferica,Periférico,Peripheriegerät,Urządzenia peryferyjne,periferní,technology
+Peripheral,Périphérique,Periferica,Periférico,Peripheriegeräte,Obwodowy,Obvodový,technology
 Smartphone,Smartphone,Smartphone,Teléfono inteligente,Smartphone,Smartfon,Smartphone,technology
-Tablet,Tablette,Tablet,Tableta,Tablet,Tablet,Tableta,technology
-Laptop,Ordinateur portatif,Laptop,Laptop,Laptop,Laptop,Notebook,technology
-Desktop,Ordinateur de bureau,Desktop,Escritorio,Desktop-PC,Pulpit,Počítač,technology
-Computer,Ordinateur,Computer,en ordenadores,Computer,Komputer,Počítač,technology
-Smartwatch,Montre connectée (smartwatch),Smartwatch,Reloj inteligente,Smartwatch,Smartwatch,Chytré hodinky,technology
-E-reader,Liseuse,E-reader,Lector de libros electrónicos,E-Reader,Czytnik książek elektronicznych,Čtečka E-mailů,technology
-Game Console,Console de jeu,Console giochi,Videoconsola,Spielekonsole,Konsola do gier,Herní konzole,technology
-VR Headset,Casque VR,HEADSET VR,Casco de RV,VR-Headset,Zestaw VR,VR headset,technology
-Drone,Drone,Drone,Drone,Drohne,Dron,Droid,technology
-Smart Speaker,Haut-parleur intelligent,Altoparlanti smart,Un altavoz inteligente,Smart-Home-Lautsprecher,Inteligentny głośnik,Inteligentní reproduktor,technology
-Wearable Fitness Tracker,Outil de suivi de la condition physique portable,Fitness tracker indossabile,Rastreador de fitness portátil,Tragbarer Fitness-Tracker,Wearable Fitness Tracker,Nositelný fitness tracker,technology
-Digital Camera,Appareil photo numérique,TELECAMERA DIGITALE,Cámara digital,Digitalkamera,Aparat cyfrowy,Digitální kamera,technology
-Action Camera,Caméra sportive, <strong>Action Camera</strong> ,Action Camera,Action-Kamera,Kamera akcji,Akční kamera,technology
-Smart TV,Télévision intelligente,Smart TV,Televisor inteligente,Smart-TV,Telewizor Smart TV,Smart TV,technology
-Home Assistant Hub,Home Assistant Hub,Hub Home Assistant,Home Assistant Hub,Home Assistant Hub,Home Assistant Hub,Centrum domácího asistenta,technology
-Algorithm,Algorithme,Algoritmo,Algoritmo,Algorithmus,Algorytm,Algoritmus,technology
-Byte,Byte,Byte,Byte,Byte,Byte,Byte,technology
-Cache,Cacher,Cache,Caché,Cache,Pamięć podręczna,Mezipaměť,technology
-Domain,Domaine,Dominio,Dominio,Domain,Domena,Doména,technology
-Encryption,Chiffrement,Encryption,Cifrado,Verschlüsselung,Szyfrowanie,Šifrování,technology
-Firewall,Firewall,Firewall,Firewall,Firewall,Zapora sieciowa,Firewall,technology
-Data Mining,Extraction de données,Data mining,Minería de datos,Data Mining,Drążenie danych,data mining,technology
-Virtual Reality,Réalité virtuelle,Realtà virtuale,Realidad virtual,Virtual Reality (Virtuelle Realität - VR),Rzeczywistość wirtualna,Virtuální realita,technology
-Blockchain,Blockchain&#10;Blockchain,Blockchain,Blockchain,Blockchain,Blockchain,Blockchain,technology
-Machine Learning,Machine Learning (Apprentissage automatique),Machine Learning,Aprendizaje automático,Maschinelles Lernen,Uczenie maszynowe ,Strojové učení,technology
-API,API,API,API,API,API,API,technology
-Cloud,Cloud,Cloud,Cloud,Cloud,Chmura,Cloud,technology
-WiFi,Wi-Fi,Wi-Fi,WIFI,WLAN,WiFi,WiFi,technology
-Plugin,Extension,Plugin,Plugin,Plugin,Plugin,Plugin,technology
-Streaming,Streaming,Streaming,Streaming,Streaming,Streaming,Streamování - ,technology
-Viral,Virales,Efficienza,Víricas,Viral,Wirusy,Virový:,technology
-E-commerce,E-commerce,E-commerce,Comercio electrónico,E-Commerce,E-commerce,Elektronické obchodování,technology
-Podcasts,Podcasts,Podcast ,Podcasts,Podcasts,Podcasty,Podcasty,technology
-Augmented reality,Réalité augmentée,Realtà aumentata,Realidad aumentada,Erweiterte Realität,Rzeczywistość rozszerzona,Rozšířená realita,technology
-Smart home,Touche de début intelligente,Smart home,Smart Home,Smart Home,Sprytny klawisz Home,Inteligentní dům,technology
-Biometrics,Biometrics&#10;Biométrie,Biometria,Biometría,Biometrie,Biometria,Biometrie,technology
-Social Network,Réseau social,Social Network,Redes Sociales,Soziales Netzwerk,Portale społecznościowe,Sociální sít,technology
-Influencer,Influenceur,Influencer,Influencer,Einflussnehmer,Influencer,Influencer,technology
-Hashtag,Hashtag,Simbolo,Hashtag,Hashtag,Hasztag,Hashtag,technology
-DM,DM,DM,DM,Tag/Monat,DM,DM,technology
-Meme,Réseaux sociaux,Meme,Memecameroon_departments. kgm,Meme,Generator Memów,Mem,technology
-Vlog,Vlog,Vlog,Videoblog,Vlog,Wideoblog,Vlog,technology
-Feed,Alimentation,Feed,Alimentación,Feed,Materiał wejściowy,Zpětná vazba,technology
-Followers,Abonnés,Follower,Seguidores,Follower,Obserwujący,Sledující,technology
-Trending,Tendances,Andamento,Actualidad,Trending,Trendów,Trendování,technology
-Engagement,Engagement,Coinvolgimento,Participación,Engagement,Zaangażowanie,Zapojení,technology
-Orange,Orange,Orange,Anaranjado,Orange,Orange,Oranžová,colors
-Navy,Bleu marine,Navy,Armada,Marineblau,Marynarka,Námořnická modř,colors
-Coral,Corail,Corallo,Coral, Koralle ,Koralowy,Korálová,colors
-Red,Rouge,Rosso,Rojo,Red,Czerwone,Červená,colors
-Beige,Couleur beige :,Beige,Beige,Beige,Beżowy,Béžová,colors
-Violet,Violet,Viola,Violeta,Violett,Fioletowy,Fialová,colors
-Black,Noir,Nero,Negro,Schwarz,Czarny,Černá,colors
-Ivory,Couleur ivoire,Avorio,Marfil,Elfenbein,cielisty,Slonovinová,colors
-Maroon,Marron,Bordeaux,Castaño,Kastanienbraun ,Bordowy,Tmavě červená,colors
-Blue,Blue,Blu,Azul,Blue,Niebieski,Modrá,colors
-Olive,Oliver,Olivo,Oliva,Olive,Drzewa,Oliva,colors
-Crimson,Pourpre,Scarlatto,Púrpura,Purpur,Karmazyn,Karmínové,colors
-Gold,Or,Oro,Oro,Gold,Złoto,Zlatá,colors
-Turquoise,Turquoise,Turchese,Turquesa,türkis,Turkusowy,Turquoise,colors
-Green,Vert,Verde,Verde,Grün,Zielona,Zelená,colors
-Pink,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 53 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 53 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 52 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 52 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 52 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 51 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,colors
-Khaki,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 51 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 51 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 51 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 51 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 51 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 50 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,colors
-Mint,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 50 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 50 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 50 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 50 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 49 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 49 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,colors
-Brown,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 49 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 49 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 49 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 48 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 48 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 48 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,colors
-Grey,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 48 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 47 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 47 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 47 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 46 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 46 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,colors
-White,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 45 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 45 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 44 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 44 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 44 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 43 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,colors
-Silver,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 43 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 43 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 43 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 43 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 43 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 42 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,colors
-Lavender,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 42 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 42 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 42 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 42 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 41 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 41 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,colors
-Yellow,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 41 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 41 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 41 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 40 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 40 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 40 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,colors
-Purple,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 40 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 39 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 39 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 39 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 39 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,MYMEMORY WARNING: YOU USED ALL AVAILABLE FREE TRANSLATIONS FOR TODAY. NEXT AVAILABLE IN  16 HOURS 08 MINUTES 39 SECONDS VISIT HTTPS://MYMEMORY.TRANSLATED.NET/DOC/USAGELIMITS.PHP TO TRANSLATE MORE,colors
+Tablet,Comprimé,Tavoletta,Tableta,Tablette,Tabletka,Tableta,technology
+Laptop,Ordinateur portable,Computer portatile,Computadora portátil,Laptop,Laptop,Přenosný počítač,technology
+Desktop,Bureau,Scrivania,De oficina,Desktop,Pulpit,Desktop,technology
+Computer,Ordinateur,Computer,Computadora,Computer,Komputer,Počítač,technology
+Smartwatch,Montre intelligente,Orologio intelligente,Reloj inteligente,Smartwatch,Smartwatch,Chytré hodinky,technology
+E-reader,Liseuse,E-lettore,Lector electrónico,Elektronischer Leser,Czytnik e-booków,Elektronická čtečka,technology
+Game Console,Console de jeu,Console di gioco,Consola de juegos,Spielkonsole,Konsola do gier,Herní konzole,technology
+Olive,Olive,Oliva,Aceituna,Olive,Oliwka,Olivový,colors
+Coral,Corail,Corallo,Coral,Koralle,Koral,Korál,colors
+Grey,Gris,Grigio,Gris,Grau,Szary,Šedá,colors
+White,Blanc,Bianco,Blanco,Weiß,Biały,Bílý,colors
+Red,Rouge,Rosso,Rojo,Rot,Czerwony,Červený,colors
+Blue,Bleu,Blu,Azul,Blau,Niebieski,Modrý,colors
+Black,Noir,Nero,Negro,Schwarz,Czarny,Černý,colors
+Gold,Or,Oro,Oro,Gold,Złoto,Zlato,colors
+Violet,Violet,Viola,Violeta,Violett,Fioletowy,Fialový,colors
+Maroon,Bordeaux,Marrone,Granate,Kastanienbraun,Kasztanowaty,Maroon,colors
+Khaki,Kaki,Cachi,Caqui,Khaki,Khaki,Khaki,colors
+Brown,Brun,Marrone,Marrón,Braun,Brązowy,Hnědý,colors
+Purple,Violet,Viola,Púrpura,Lila,Fioletowy,Fialová,colors
+Orange,Orange,Arancia,Naranja,Orange,Pomarańczowy,Pomerančový,colors
+Navy,Marine,Marina Militare,Marina de guerra,Marine,Marynarka wojenna,námořnictvo,colors
+Ivory,Ivoire,Avorio,Marfil,Elfenbein,Kość słoniowa,Slonová kost,colors
+Crimson,Cramoisi,Cremisi,Carmesí,Purpur,Karmazynowy,Karmínový,colors
+Lavender,Lavande,Lavanda,Lavanda,Lavendel,Lawenda,Levandule,colors
+Yellow,Jaune,Giallo,Amarillo,Gelb,Żółty,Žluť,colors
+Mint,Menthe,Menta,Menta,Minze,Mennica,Máta,colors
+Silver,Argent,Argento,Plata,Silber,Srebrny,Stříbro,colors
+Beige,Beige,Beige,Beige,Beige,Beżowy,Béžový,colors
+Pink,Rose,Rosa,Rosa,Rosa,Różowy,Růžový,colors
+Green,Vert,Verde,Verde,Grün,Zielony,Zelený,colors
+Turquoise,Turquoise,Turchese,Turquesa,Türkis,Turkus,Tyrkysový,colors
+fish,poisson,pescare,pez,Fisch,ryba,ryba,animals
+albatross,albatros,albatro,albatros,Albatros,albatros,albatros,animals
+mole,taupe,neo,lunar,Mol,kret,krtek,animals
+mouse,souris,topo,ratón,Maus,mysz,myš,animals
+carnivores,carnivores,carnivori,carnívoros,Fleischfresser,mięsożercy,masožravci,animals
+alligator,alligator,alligatore,caimán,Alligator,aligator,aligátor,animals
+kangaroo,kangourou,canguro,canguro,Känguru,kangur,klokan,animals
+tutaj,tout le monde,tuta,tutaj,tutaj,tutaj,tutaj,animals
+bobcat,lynx,lince rossa,gato montés,Rotluchs,ryś amerykański,bobcat,animals
+jellyfish,méduse,medusa,medusa,Qualle,meduza,medúza,animals
+bumblebee,bourdon,calabrone,abejorro,Hummel,trzmiel,čmelák,animals
+eagle,aigle,aquila,águila,Adler,orzeł,orel,animals
+buffalo,buffle,bufalo,búfalo,Büffel,bawół,buvol,animals
+hummingbird,colibri,colibrì,colibrí,Kolibri,koliber,kolibřík,animals
+goat,chèvre,capra,cabra,Ziege,koza,koza,animals
+camel,chameau,cammello,camello,Kamel,wielbłąd,velbloud,animals
+rabbit,lapin,coniglio,conejo,Kaninchen,królik,králičí,animals
+yak,yak,yak,yak,Yak,jak,jaka,animals
+nightingale,rossignol,usignolo,ruiseñor,Nachtigall,słowik,slavík,animals
+birds,oiseaux,uccelli,pájaros,Vögel,ptaki,ptactvo,animals
+butterfly,papillon,farfalla,mariposa,Schmetterling,motyl,motýl,animals
+caterpillar,chenille,bruco,oruga,Raupe,gąsienica,housenka,animals
+fox,renard,volpe,zorro,Fuchs,lis,liška,animals
+pig,cochon,maiale,cerdo,Schwein,świnia,prase,animals
+antelope,antilope,antilope,antílope,Antilope,antylopa,antilopa,animals
+penguin,manchot,pinguino,pingüino,Pinguin,pingwin,tučňák,animals
+badger,blaireau,tasso,tejón,Dachs,borsuk,jezevec,animals
+snail,escargot,lumaca,caracol,Schnecke,ślimak,šnek,animals
+frog,grenouille,rana,rana,Frosch,żaba,žába,animals
+centipede,mille-pattes,centopiedi,ciempiés,Tausendfüßler,skolopendra,stonožka,animals
+fly,voler,volare,volar,fliegen,latać,létat,animals
+lizard,lézard,lucertola,lagarto,Eidechse,jaszczurka,ještěrka,animals
+koala,koala,koala,coala,Koala,koala,koala,animals
+grasshopper,sauterelle,cavalletta,saltamontes,Heuschrecke,konik polny,saranče,animals
+lynx,lynx,lince,lince,Luchs,ryś,rys,animals
+kiwi,kiwi,kiwi,kiwi,Kiwi,kiwi,kiwi,animals
+crocodile,crocodile,coccodrillo,cocodrilo,Krokodil,krokodyl,krokodýl,animals
+goose,oie,oca,ganso,Gans,gęś,husa,animals
+puma,puma,puma,puma,Puma,puma,puma,animals
+sparrow,moineau,passero,gorrión,Spatz,wróbel,vrabec,animals
+bison,bison,bisonte,bisonte,Bison,bizon,bizon,animals
+bear,ours,orso,oso,tragen,niedźwiedź,medvěd,animals
+bat,batte,pipistrello,murciélago,Schläger,nietoperz,netopýr,animals
+tortoise,tortue,tartaruga,tortuga,Schildkröte,żółw,želva,animals
+cow,vache,mucca,vaca,Kuh,krowa,kráva,animals
+pelican,pélican,pellicano,pelícano,Pelikan,pelikan,pelikán,animals
+amphibians,amphibiens,anfibi,anfibios,Amphibien,płazy,obojživelníci,animals
+falcon,faucon,falco,halcón,Falke,sokół,sokol,animals
+chicken,poulet,pollo,pollo,Huhn,kurczak,kuře,animals
+parrot,perroquet,pappagallo,loro,Papagei,papuga,papoušek,animals
+owl,hibou,gufo,búho,Eule,sowa,sova,animals
+turkey,dinde,tacchino,pavo,Truthahn,indyk,Turecko,animals
+ostrich,autruche,struzzo,avestruz,Strauß,struś,pštros,animals
+seal,joint,foca,sello,Siegel,foka,pečeť,animals
+bee,abeille,ape,abeja,Biene,pszczoła,včela,animals
+wolf,loup,lupo,lobo,Wolf,wilk,vlk,animals
+horse,cheval,cavallo,caballo,Pferd,koń,kůň,animals
+rattlesnake,crotale,serpente a sonagli,serpiente de cascabel,Klapperschlange,grzechotnik,chřestýš,animals
+cockroach,cafard,scarafaggio,cucaracha,Kakerlake,karaluch,šváb,animals
+skunk,mouffette,puzzola,mofeta,Skunk,skunks,skunk,animals
+giraffe,girafe,giraffa,jirafa,Giraffe,żyrafa,žirafa,animals
+panther,panthère,pantera,pantera,Panther,pantera,panter,animals
+chameleon,caméléon,camaleonte,camaleón,Chamäleon,kameleon,chameleón,animals
+sheep,mouton,pecora,oveja,Schaf,owce,ovce,animals
+peacock,paon,pavone,pavo real,Pfau,paw,páv,animals
+reindeer,renne,renna,reno,Ren,renifer,sob,animals
+swan,cygne,cigno,cisne,Schwan,łabędź,labuť,animals
+insects,insectes,insetti,Insectos,Insekten,owady,hmyz,animals
+omnivores,omnivores,onnivori,omnívoros,Allesfresser,wszystkożercy,všežravci,animals
+hamster,hamster,criceto,hámster,Hamster,chomik,křeček,animals
+ant,fourmi,formica,hormiga,Ameise,mrówka,mravenec,animals
+mammals,mammifères,mammiferi,mamíferos,Säugetiere,ssaki,savců,animals
+beetle,scarabée,scarafaggio,escarabajo,Käfer,chrząszcz,brouk,animals
+jaguar,jaguar,giaguaro,jaguar,Jaguar,jaguar,jaguár,animals
+monkey,singe,scimmia,mono,Affe,małpa,opice,animals
+cougar,puma,puma,puma,Puma,puma,puma,animals
+lion,lion,leone,león,Löwe,lew,lev,animals
+zebra,zèbre,zebra,cebra,Zebra,zebra,zebra,animals
+llama,lama,lama,llama,Lama,lama,lama,animals
+gorilla,gorille,gorilla,gorila,Gorilla,goryl,gorila,animals
+meerkat,suricate,suricato,suricata,Erdmännchen,surykatka,surikata,animals
+snake,serpent,serpente,serpiente,Schlange,wąż,had,animals
+coyote,coyote,coyote,coyote,Kojote,kojot,kojot,animals
+insect,insecte,insetto,insecto,Insekt,owad,hmyz,animals
+mule,mule,mulo,mula,Maultier,muł,mezek,animals
+catfish,poisson-chat,pesce gatto,bagre,Wels,sum,sumec,animals
+walrus,morse,tricheco,morsa,Walross,mors,mrož,animals
+raccoon,raton laveur,procione,mapache,Waschbär,szop,mýval,animals
+tiger,tigre,tigre,tigre,Tiger,tygrys,tygr,animals
+moose,élan,alce,alce,Elch,łoś,los,animals
+hyena,hyène,iena,hiena,Hyäne,hiena,hyena,animals
+beaver,castor,castoro,castor,Biber,bóbr,bobr,animals
+woodpecker,pic,picchio,pájaro carpintero,Specht,dzięcioł,datel,animals
+squirrel,écureuil,scoiattolo,ardilla,Eichhörnchen,wiewiórka,veverka,animals
+reptiles,reptiles,rettili,reptiles,Reptilien,gadzina,plazi,animals
+leopard,léopard,leopardo,leopardo,Leopard,lampart,leopard,animals
+rat,rat,ratto,rata,Ratte,szczur,krysa,animals
+elephant,éléphant,elefante,elefante,Elefant,słoń,slon,animals
+cat,chat,gatto,gato,Katze,kot,kočka,animals
+bird,oiseau,uccello,pájaro,Vogel,ptak,pták,animals
+prawn,crevette,gambero,gamba,Garnele,krewetka,kreveta,animals
+herbivores,herbivores,erbivori,herbívoros,Pflanzenfresser,roślinożercy,býložravci,animals
+cheetah,guépard,ghepardo,guepardo,Gepard,gepard,gepard,animals
+opossum,opossum,opossum,zarigüeya,Beutelratte,opos,vačice,animals
+baboon,babouin,babbuino,babuino,Pavian,pawian,pavián,animals
+rhubarb,rhubarbe,rabarbaro,ruibarbo,Rhabarber,rabarbar,rebarbora,vegetables
+kohlrabi,chou-rave,cavolo rapa,colinabo,Kohlrabi,kalarepa,kedluben,vegetables
+onion,oignon,cipolla,cebolla,Zwiebel,cebula,cibule,vegetables
+garlic,ail,aglio,ajo,Knoblauch,czosnek,česnek,vegetables
+corn,maïs,mais,maíz,Mais,kukurydza,kukuřice,vegetables
+kale,chou frisé,cavolo,col rizada,Grünkohl,kapusta włoska,kapusta,vegetables
+artichoke,artichaut,carciofo,alcachofa,Artischocke,karczoch,artyčok,vegetables
+gherkin,cornichon,cetriolino,pepinillo,Gurke,korniszon,okurka,vegetables
+soy,soja,soia,soja,Soja,soja,sója,vegetables
+lentils,lentilles,lenticchie,lentejas,Linsen,soczewica,čočka,vegetables
+horseradish,raifort,rafano,rábano picante,Meerrettich,chrzan,křen,vegetables
+lettuce,laitue,lattuga,lechuga,Kopfsalat,sałata,hlávkový salát,vegetables
+cabbage,chou,cavolo,repollo,Kohl,kapusta,zelí,vegetables
+olives,olives,olive,aceitunas,Oliven,oliwki,olivy,vegetables
+parsnip,panais,pastinaca,chirivía,Pastinake,pasternak,pastinák,vegetables
+tomato,tomate,pomodoro,tomate,Tomate,pomidor,rajče,vegetables
+dill,aneth,aneto,eneldo,Dill,koperek,kopr,vegetables
+chives,ciboulette,erba cipollina,cebollinos,Schnittlauch,szczypiorek,pažitka,vegetables
+chili,piment,peperoncino,chile,Chili,czerwony pieprz,chilli,vegetables
+chicory,chicorée,cicoria,achicoria,Chicoree,cykoria,cikorka,vegetables
+fennel,fenouil,finocchio,hinojo,Fenchel,koper włoski,fenykl,vegetables
+marrow,moelle,midollo,médula,Mark,szpik kostny,dřeň,vegetables
+peas,petits pois,piselli,guisantes,Erbsen,groszek,hrášek,vegetables
+broccoli,brocoli,broccoli,brócoli,Brokkoli,brokuł,brokolice,vegetables
+radish,radis,ravanello,rábano,Rettich,rzodkiewka,ředkev,vegetables
+cress,cresson,crescione,berro,Kresse,rzeżucha,řeřicha,vegetables
+pumpkin,citrouille,zucca,calabaza,Kürbis,dynia,dýně,vegetables
+squash,squash,schiacciare,calabaza,quetschen,zdusić,squash,vegetables
+bean,haricot,fagiolo,frijol,Bohne,fasola,fazole,vegetables
+carrot,carotte,carota,zanahoria,Karotte,marchew,mrkev,vegetables
+potato,pomme de terre,patata,papa,Kartoffel,ziemniak,brambor,vegetables
+Vegetables,Légumes,Verdure,Verduras,Gemüse,Warzywa,Zelenina,vegetables
+parsley,persil,prezzemolo,perejil,Petersilie,pietruszka,petržel,vegetables
+mushrooms,champignons,funghi,hongos,Pilze,grzyby,houby,vegetables
+asparagus,asperge,asparago,espárragos,Spargel,asparagus,chřest,vegetables
+turnip,navet,rapa,nabo,Rübe,rzepa,tuřín,vegetables
+celery,céleri,sedano,apio,Sellerie,seler,celer,vegetables
+leek,poireau,Porro,Puerro,Lauch,por,pórek,vegetables
+potatoes,pommes de terre,patate,papas,Kartoffeln,ziemniaki,brambory,vegetables
+cauliflower,chou-fleur,cavolfiore,coliflor,Blumenkohl,kalafior,květák,vegetables
+peanuts,cacahuètes,arachidi,miseria,Erdnüsse,orzeszki ziemne,arašídy,vegetables
+spinach,épinard,spinaci,espinaca,Spinat,szpinak,špenát,vegetables
+cucumber,concombre,cetriolo,pepino,Gurke,ogórek,okurka,vegetables
+raspberry,framboise,lampone,frambuesa,Himbeere,malina,malina,fruits
+mangosteen,mangoustan,mangostano,mangostán,Mangostan,mangostan,mangostanu,fruits
+blackberry,mûre,mora,zarzamora,Brombeere,jeżyna,ostružina,fruits
+hazelnut,noisette,nocciola,avellana,Haselnuss,orzech laskowy,lískový ořech,fruits
+marula,marula,Marula,marula,marula,marula,marula,fruits
+persimmon,kaki,cachi,caqui,Persimmon,kaki,tomel,fruits
+banana,banane,banana,banana,Banane,banan,banán,fruits
+durian,durian,durian,durian,Durian,durian,durian,fruits
+grenadia,Grenade,granada,granadia,grenadi,Grenadia,grenadie,fruits
+avocado,avocat,avocado,palta,Avocado,awokado,avokádo,fruits
+orange,orange,arancia,naranja,orange,pomarańczowy,pomerančový,fruits
+kiwano,Kiwano,kiwanano,kiwano,kiwano,kiwano,kiwano,fruits
+starfruit,carambole,carambola,carambola,Sternfrucht,karambol,hvězdice,fruits
+papaya,papaye,papaia,papaya,Papaya,papaja,papája,fruits
+blueberry,myrtille,mirtillo,arándano,Blaubeere,jagoda,borůvka,fruits
+tamarillo,tamarillo,tamarillo,tomate de árbol,Tamarillo-Wurzel,tamarillo,tamarillo,fruits
+apple,pomme,mela,manzana,Apfel,jabłko,jablko,fruits
+blackcurrant,cassis,ribes nero,grosella negra,schwarze Johannisbeere,czarna porzeczka,černý rybíz,fruits
+grapes,raisins,uva,uvas,Trauben,winogrona,hrozny,fruits
+pineapple,ananas,ananas,piña,Ananas,ananas,ananas,fruits
+kiwi,kiwi,kiwi,kiwi,Kiwi,kiwi,kiwi,fruits
+ackee,acké,ackee,ackee,ackee,aki,ackee,fruits
+calamondin,calamondin,calamondino,calamondín,Abonnieren,kalamondyna,calamondin,fruits
+apricot,abricot,albicocca,albaricoque,Aprikose,morela,meruňka,fruits
+pomegranate,grenade,melograno,granada,Granatapfel,granat,granátové jablko,fruits
+redcurrant,groseille rouge,ribes rosso,grosella roja,rote Johannisbeere,porzeczka czerwona,červený rybíz,fruits
+kumquat,kumquat,kumquat,naranja china,Kumquat,kumkwat,kumquat,fruits
+mandarin,mandarin,mandarino,mandarín,Mandarin,mandarynka,mandarinka,fruits
+chestnut,châtaigne,castagno,castaña,Kastanie,kasztan,kaštan,fruits
+cherimoya,chérimole,cherimoya,chirimoya,Cherimoya-Pflanze,czerymoja,cherimoya,fruits
+gooseberry,groseille,uva spina,Grosella,Stachelbeere,agrest,angrešt,fruits
+lime,citron vert,lime,cal,Kalk,wapno,vápno,fruits
+watermelon,pastèque,anguria,sandía,Wassermelone,arbuz,vodní meloun,fruits
+nectarine,nectarine,nettarina,nectarina,Nektarine,nektarowy,nektarinka,fruits
+grapefruit,pamplemousse,pompelmo,pomelo,Grapefruit,grejpfrut,grapefruit,fruits
+plum,prune,prugna,ciruela,Pflaume,śliwka,švestka,fruits
+tamarind,tamarin,tamarindo,tamarindo,Tamarinde,tamaryndowiec,tamarind,fruits
+damson,prune,susina selvatica,ciruela damascena,Zwetschge,damaszka,damson,fruits
+babaco,babaco,babbo natale,babaco,Abonnieren,babako,babaco,fruits
+cherry,cerise,ciliegia,cereza,Kirsche,wiśniowy,třešeň,fruits
+coconut,noix de coco,noce di cocco,Coco,Kokosnuss,orzech kokosowy,kokos,fruits
+pear,poire,pera,pera,Birne,gruszka,hruška,fruits
+strawberry,fraise,fragola,fresa,Erdbeere,truskawka,jahoda,fruits
+peach,pêche,pesca,durazno,Pfirsich,brzoskwinia,broskev,fruits
+guava,goyave,guaiava,guayaba,Guave,guawa,guava,fruits
+quince,coing,mela cotogna,membrillo,Quitte,pigwa,kdoule,fruits
+lychee,litchi,litchi,lychee,Litschi,liczi,liči,fruits
+melon,melon,melone,melón,Melone,melon,meloun,fruits
+date,date,data,fecha,Datum,data,datum,fruits
+sunflower,tournesol,girasole,girasol,Sonnenblume,słonecznik,slunečnice,fruits
+atemoya,Atémoya,atemoia,atemoya,Abonnieren,atemoja,atemoya,fruits
+satsuma,Satsuma,mandarino,mandarina,Satsuma,mandarynka,satsuma,fruits
+cantaloupe,cantaloup,Cantalupo,cantalupo,Kantalupe,kantalupa,ananasový meloun,fruits
+clementine,clémentine,clementina,clementina,Clementine,mandarynka,klementinka,fruits
+mulberry,mûre,gelso,mora,Maulbeere,morwa,moruše,fruits
+rambutan,ramboutan,rambutan,rambután,Rambutan,rambutan,rambutan,fruits
+fig,figue,Fico,higo,Feige,figa,Obr,fruits
+jackfruit,jacquier,frutto del jack,yaca,Jackfrucht,chlebowiec,jackfruit,fruits
+lemon,citron,limone,limón,Zitrone,cytrynowy,citrón,fruits
+longan,longane,longano,Longán,longan,Longan,longan,fruits
+bael,bael,bael,Bael,bael,bełkot,bael,fruits

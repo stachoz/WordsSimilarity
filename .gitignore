@@ -245,6 +245,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# keys
+/googlekey.json
+
 # Spyder project settings
 .spyderproject
 .spyproject

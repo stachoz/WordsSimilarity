@@ -2,9 +2,42 @@ import requests
 from bs4 import BeautifulSoup
 from google.cloud.exceptions import BadRequest
 from requests import Response
+import csv
 
 
 class Scraper:
+
+    def scrap_all(self, output_file):
+        functions = [
+            self.scrap_places_in_town,
+            self.scrap_jobs,
+            self.scrap_hobbies,
+            self.scrap_drinks,
+            self.scarp_parts_of_house,
+            self.scrap_sports_words,
+            self.scrap_music_instruments,
+            self.scrap_technology,
+            self.scrap_colors,
+            self.scrap_animals,
+            self.scrap_vegetables,
+            self.scrap_fruits
+        ]
+
+        data = []
+
+
+        for func in functions:
+            result = func()  # Each function returns {"category": list(words)}
+            for category, words_list in result.items():
+                for word in words_list:
+                    data.append({"word": word, "category": category})
+
+        with open(output_file, mode="w", newline='', encoding="utf-8") as file:
+            writer = csv.DictWriter(file, fieldnames=["word", "category"])
+            writer.writeheader()
+            writer.writerows(data)
+
+
 
     def scrap_fruits(self):
         url = "https://ellalanguage.com/blog/owoce-po-angielsku/"
@@ -98,7 +131,7 @@ class Scraper:
             soup = self.__create_soup(url)
             words = set()
             rows = soup.find_all('b')
-            for row in rows:
+            for row in rows[:20]:
                 text = row.text.strip()
                 if 3 < len(text) < 15 and text.isalpha():
                     words.add(text)
@@ -145,7 +178,7 @@ class Scraper:
             soup = self.__create_soup(url)
             words = list()
             rows = soup.find_all("li", class_="")
-            for row in rows:
+            for row in rows[:20]:
                 text = row.text.strip()
                 words.append(text)
 
@@ -161,7 +194,7 @@ class Scraper:
             a_words_tags = soup.select('ul.t_words li a:not([target])')
             words = list()
 
-            for a_word_tag in a_words_tags:
+            for a_word_tag in a_words_tags[:20]:
                 text = a_word_tag.text
                 bracket_pos = text.find("(")
                 if bracket_pos != -1:
@@ -186,7 +219,7 @@ class Scraper:
             soup = self.__create_soup(promova_url)
             tags = soup.find_all(tag_name, class_="")
             words = list()
-            for tag in tags:
+            for tag in tags[:20]:
                 if len(tag.text.strip()) > 3:
                     text = tag.text.strip()
                     if text[-1] == ':':
