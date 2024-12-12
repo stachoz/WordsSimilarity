@@ -19,6 +19,6 @@ class WordsSimilarityLogic:
         self.scraper.scrap_all(output_file=self.scraper_output_file)
         self.translator.translate(input_file=self.scraper_output_file, output_file=self.translator_output_file)
 
-        language_comparer = LanguageComparer(self.translator_output_file, 7)
+        language_comparer = LanguageComparer(self.translator_output_file)
         result = language_comparer.compute_average_distances()
         language_comparer.save_results_to_csv("levenshtein.csv", result)
