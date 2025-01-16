@@ -27,11 +27,6 @@ class WordsSimilarityLogic:
         language_comparer.save_results_to_csv("levenshtein.csv", result)
          
           graph_generator = WordsSimilarityGraph("data/levenshtein_results.csv")
-
-       
-       
-        graph_generator.generate_category_graphs()  # Generowanie grafów dla wszystkich kategorii
-
-        
-        average_graph = graph_generator.create_average_graph()  # Tworzenie wykresu dla średnich odległości
-        graph_generator.save_graph(average_graph, "average_distances")  # Zapisanie wykresu
+          graph_generator.generate_category_graphs() 
+          average_graph = graph_generator.create_average_graph()  
+           graph_generator.save_graph(average_graph, "average_distances") 
