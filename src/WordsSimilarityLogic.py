@@ -1,6 +1,7 @@
 from src.LanguageComparer import LanguageComparer
 from src.WordsListScraper import Scraper
 from src.WordsTranslator import WordsTranslator
+from src.WordsSimilarityGraph import WordsSimilarityGraph
 
 
 class WordsSimilarityLogic:
