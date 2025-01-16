@@ -98,7 +98,7 @@ class WordsSimilarityGraph:
         plt.savefig(output_file)
         plt.close()
 
-    def run(self):
+    def generate_category_graphs(self):
         categories = [
             'places_in_town', 'jobs', 'hobbies', 'drinks', 'partsOfHouse',
             'instruments', 'technology', 'colors', 'animals', 'vegetables', 'fruits'
@@ -110,8 +110,5 @@ class WordsSimilarityGraph:
             G = self.create_graph_for_category(category)
             self.save_graph(G, category)
 
-        # Generate graph for average distances across all categories
-        print("Generating graph for average distances")
-        average_graph = self.create_average_graph()
-        self.save_graph(average_graph, "average_distances")
+       
 
