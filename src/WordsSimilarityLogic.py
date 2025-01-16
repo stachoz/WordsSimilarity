@@ -6,6 +6,18 @@ from src.WordsSimilarityGraph import WordsSimilarityGraph
 
 class WordsSimilarityLogic:
 
+     def run(self):
+        graph_generator = WordsSimilarityGraph("data/levenshtein_results.csv")
+
+        
+        print("Generating graphs for all categories...")
+        graph_generator.generate_category_graphs()  
+
+        
+        print("Generating graph for average distances")
+        average_graph = graph_generator.create_average_graph()  
+        graph_generator.save_graph(average_graph, "average_distances")  
+
     scraper_output_file = "words_data.csv"
     translator_output_file = "translated_words.csv"
     scraper = Scraper()
