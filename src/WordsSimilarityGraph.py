@@ -8,7 +8,7 @@ class WordsSimilarityGraph:
 
     def __init__(self, levenshtein_results_file):
         self.levenshtein_results_file = levenshtein_results_file
-        self.output_dir = "WordsSimiliarity/graphs"
+        self.output_dir = "graphs"
         # Tworzenie katalogu, jeśli nie istnieje
         if not os.path.exists(self.output_dir):
             os.makedirs(self.output_dir)
