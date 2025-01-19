@@ -64,7 +64,7 @@ class WordsSimilarityGraph:
         else:
             norm = colors.Normalize(vmin=min(weights), vmax=max(weights))
 
-        cmap = cm.get_cmap('RdYlGn')  # red to green colormap
+        cmap = cm.get_cmap('RdYlGn_r') 
 
         edge_colors = [cmap(norm(weight)) for weight in weights]
 
