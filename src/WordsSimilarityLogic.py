@@ -6,8 +6,6 @@ from src.WordsSimilarityGraph import WordsSimilarityGraph
 
 class WordsSimilarityLogic:
 
-  
-
     scraper_output_file = "words_data.csv"
     translator_output_file = "translated_words.csv"
     scraper = Scraper()
@@ -24,7 +22,7 @@ class WordsSimilarityLogic:
 
         language_comparer = LanguageComparer(self.translator_output_file)
         result = language_comparer.compute_average_distances()
-        language_comparer.save_results_to_csv("levenshtein.csv", result)
+        language_comparer.save_results_to_csv(result, "levenshtein.csv")
          
         graph_generator = WordsSimilarityGraph("levenshtein_results.csv")
         graph_generator.generate_category_graphs() 

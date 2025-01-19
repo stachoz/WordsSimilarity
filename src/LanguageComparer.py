@@ -30,7 +30,7 @@ class LanguageComparer:
 
         rows = len(s1) + 1
         cols = len(s2) + 1
-        distance_matrix = [[0 for x in range(cols)] for x in range(rows)]
+        distance_matrix = [[0 for _ in range(cols)] for _ in range(rows)]
 
         for i in range(1, rows):
             distance_matrix[i][0] = i
