@@ -1,0 +1,382 @@
+word,fr,it,es,de,pl,cs,category
+train station,gare,stazione ferroviaria,Estacion de tren,Bahnhof,Dworzec kolejowy,vlakove nadrazi,places_in_town
+supermarket,supermarche,supermercato,supermercado,Supermarkt,supermarket,supermarket,places_in_town
+museum,musee,museo,museo,Museum,muzeum,muzeum,places_in_town
+post office,bureau de poste,ufficio postale,oficina de correos,Postamt,poczta,posta,places_in_town
+school,ecole,scuola,escuela,Schule,szkola,skola,places_in_town
+theatre,theatre,teatro,teatro,Theater,teatr,divadlo,places_in_town
+park,parc,parco,parque,Park,park,park,places_in_town
+restaurant,restaurant,ristorante,restaurante,Restaurant,restauracja,restaurace,places_in_town
+bank,banque,banca,banco,Bank,bank,banka,places_in_town
+hospital,hopital,Ospedale,hospital,Krankenhaus,szpital,NEMOCNICE,places_in_town
+Post offices,Bureaux de poste,Uffici postali,Oficinas de correos,Postamter,Urzedy pocztowe,Postovni urady,places_in_town
+bus station,gare routiere,stazione degli autobus,estacion de autobuses,Busbahnhof,Dworzec autobusowy,autobusove nadrazi,places_in_town
+library,bibliotheque,biblioteca,biblioteca,Bibliothek,biblioteka,knihovna,places_in_town
+employee,employe,dipendente,empleado,Mitarbeiter,pracownik,zamestnanec,jobs
+employer,employeur,datore di lavoro,empleador,Arbeitgeber,pracodawca,zamestnavatel,jobs
+shifts,decalages,turni,turnos,Schichten,zmiany,smeny,jobs
+journaling,journalisation,tenere un diario,diario,Tagebuch fuhren,dziennikarstwo,zurnalovani,hobbies
+sketching,esquisse,schizzo,bosquejando,Skizzierung,szkicowanie,skicovani,hobbies
+to doodle,gribouiller,scarabocchiare,garabatear,kritzeln,rysowac,cmarat,hobbies
+karting,karting,karting,karting,Kartfahren,karting,motokary,hobbies
+backpacking,randonnee,zaino in spalla,Mochilero,Rucksackreisen,plecakowanie,turismus,hobbies
+hunting,chasse,a caccia,caza,Jagd,polowanie,lov,hobbies
+traveling,voyages,viaggiare,de viaje,Reisen,podrozny,cestovani,hobbies
+clubbing,sortir en boite,andare in discoteca,discotecas,Clubbing,klubowanie,klubovani,hobbies
+collecting,collectionner,collezionare,coleccionando,Sammeln,zbieranie,sbirani,hobbies
+skydiving,parachutisme,paracadutismo,paracaidismo,Fallschirmspringen,skydiving,skydiving,hobbies
+birdwatching,observation des oiseaux,osservazione degli uccelli,ornitologia,Vogelbeobachtung,obserwowanie ptakow,pozorovani ptactva,hobbies
+gambling,jeu d&#39;argent,gioco d&#39;azzardo,juego,Glucksspiel,hazard,hazardni hry,hobbies
+leisure,loisirs,tempo libero,ocio,Freizeit,wypoczynek,volny cas,hobbies
+meditation,meditation,meditazione,meditacion,Meditation,medytacja,rozjimani,hobbies
+window shopping,leche-vitrine,vetrine,mirando escaparates,Schaufensterbummel,ogladanie wystaw sklepowych,vylohy,hobbies
+knitting,tricot,maglieria,tejido de punto,Stricken,dzianie,pleteni,hobbies
+origami,origami,origami,origami,Origami,origami,origami,hobbies
+scuba diving,Plongee sous-marine,immersioni in subacquea,submarinismo,Geratetauchen,nurkowanie,potapeni,hobbies
+windsurfing,planche a voile,windsurf,tabla a vela,Windsurfen,windsurfing,surfovani,hobbies
+blogging,blogging,bloggare,bloguear,Bloggen,blogowanie,blogovani,hobbies
+pastime,divertissement,passatempo,pasatiempo,Zeitvertreib,rozrywka,zabava,hobbies
+pottery,poterie,ceramica,ceramica,Keramik,garncarstwo,hrncirstvi,hobbies
+mountain biking,VTT,mountain bike,Ciclismo de montana,Mountainbiken,kolarstwo gorskie,horska kola,hobbies
+cheerleading,cheerleading,fare il tifo,Animadoras,Cheerleading,cheerleading,cheerleading,hobbies
+beer,biere,birra,cerveza,Bier,piwo,pivo,drinks
+soda,soude,soda,soda,Soda,soda,soda,drinks
+whiskey,whisky,whisky,whisky,Whiskey,whisky,whisky,drinks
+smoothie,smoothie,frullato,zalamero,Smoothie,pochlebca,smoothie,drinks
+cocktail,cocktail,cocktail,coctel,Cocktail,koktajl,koktejl,drinks
+vodka,vodka,vodka,vodka,Wodka,wodka,vodka,drinks
+tequila,tequila,tequila,tequila,Tequila,tequila,tequila,drinks
+mineral water,eau minerale,acqua minerale,agua mineral,Mineralwasser,woda mineralna,mineralni voda,drinks
+soft drink,boisson gazeuse,bibita analcolica,Bebida sin alcohol,Erfrischungsgetrank,napoj bezalkoholowy,nealkoholicky napoj,drinks
+Tonic,Tonique,Tonico,Tonico,Tonic,Tonik,Tonikum,drinks
+Coca-Cola,Coca-Cola,Coca-Cola,Coca-cola,Coca Cola,Coca-Cola,Coca-Cola,drinks
+to drink,boire,bere,beber,trinken,pic,pit,drinks
+latte,latte,latte macchiato,cafe con leche,Latte,latte,latte,drinks
+still,toujours,Ancora,aun,Trotzdem,Nadal,stale,drinks
+nonalcoholic,sans alcool,analcolico,no alcoholico,Alkoholfrei,bezalkoholowy,nealkoholicky,drinks
+cocoa,cacao,cacao,cacao,Kakao,kakao,kakao,drinks
+beverage,boisson,bevanda,bebida,Getrank,napoj,napoj,drinks
+alcohol,alcool,alcol,alcohol,Alkohol,alkohol,alkohol,drinks
+wine,vin,vino,vino,Wein,wino,vino,drinks
+sparkling,petillant,frizzante,espumoso,funkelnd,musujacy,sumive,drinks
+drink,boire,bere,beber,trinken,drink,piti,drinks
+brandy,Brandy,brandy,brandy,Brandy,brandy,brandy,drinks
+Champagne,Champagne,Champagne,Champan,Sekt,Szampan,sampanske,drinks
+lemonade,limonade,limonata,limonada,Limonade,lemoniada,limonada,drinks
+alcoholic,alcoolique,alcolizzato,alcoholico,alkoholisch,alkoholowy,alkoholik,drinks
+espresso,espresso,espresso,cafe expres,Espresso,espresso,espresso,drinks
+milkshake,milk-shake,frappe,batido,Milchshake,koktajl mleczny,mlecny koktejl,drinks
+energy drink,boisson energisante,bevanda energetica,bebida energetica,Energiegetrank,napoj energetyczny,energeticky napoj,drinks
+house,maison,casa,casa,Haus,dom,dum,partsOfHouse
+roof,toit,tetto,techo,Dach,dach,strecha,partsOfHouse
+chimney,cheminee,camino,tubo de lampara,Schornstein,komin,komin,partsOfHouse
+window,fenetre,finestra,ventana,Fenster,okno,okno,partsOfHouse
+door,porte,porta,puerta,Tur,drzwi,dvere,partsOfHouse
+balcony,balcon,balcone,balcon,Balkon,balkon,balkon,partsOfHouse
+garage,garage,garage,cochera,Garage,garaz,garaz,partsOfHouse
+driveway,allee,vialetto,entrada de coches,Auffahrt,podjazd,prijezdova cesta,partsOfHouse
+yard,cour,cortile,patio,Hof,dziedziniec,yard,partsOfHouse
+letterbox,boite aux lettres,cassetta delle lettere,buzon,Briefkasten,skrzynka na listy,postovni schranka,partsOfHouse
+path,chemin,sentiero,camino,Weg,sciezka,cesta,partsOfHouse
+attic,grenier,attico,atico,Dachboden,strych,podkrovi,partsOfHouse
+bedroom,chambre a coucher,camera da letto,dormitorio,Schlafzimmer,sypialnia,loznice,partsOfHouse
+bathroom,salle de bain,bagno,bano,Badezimmer,lazienka,koupelna,partsOfHouse
+nursery (room),chambre d&#39;enfant (chambre),stanza dei bambini (stanza),cuarto de ninos,Kinderzimmer,pokoj dzieciecy (pokoj),skolka (pokoj),partsOfHouse
+home office,bureau a domicile,ufficio a casa,oficina en casa,Innenministerium,ministerstwo spraw wewnetrznych,domaci kancelar,partsOfHouse
+living room,salon,soggiorno,sala de estar,Wohnzimmer,salon,obyvaci pokoj,partsOfHouse
+dining room,salle a manger,sala da pranzo,comedor,Esszimmer,jadalnia,jidelna,partsOfHouse
+kitchen,cuisine,cucina,cocina,Kuche,kuchnia,kuchyne,partsOfHouse
+laundry room,buanderie,lavanderia,cuarto de lavado,Waschkuche,pralnia,pradelna,partsOfHouse
+amateur,amateur,dilettante,aficionado,Amateur,amator,amater,partsOfHouse
+arena,arene,arena,arena,Arena,arena,arena,partsOfHouse
+athletic,athletique,atletico,atletico,sportlich,atletyczny,atleticky,partsOfHouse
+backboard,panneau,tabellone,respaldo,Ruckwand,tablica,zadni deska,partsOfHouse
+backhand,revers,rovescio,reves,Ruckhand,bekhend,backhand,partsOfHouse
+batter,battre,pastella,bateador,Teig,rzadkie ciasto,testo,partsOfHouse
+baseball,base-ball,baseball,beisbol,Baseball,baseball,baseball,partsOfHouse
+basketball,basket-ball,pallacanestro,baloncesto,Basketball,koszykowka,basketball,partsOfHouse
+bench,banc,panca,banco,Bank,lawka,lavice,partsOfHouse
+catcher,receveur,ricevitore,receptor,Fanger,lapacz,lapac,partsOfHouse
+champion,champion,campione,campeon,Champion,mistrz,mistr,partsOfHouse
+championship,championnat,campionato,campeonato,Meisterschaft,mistrzostwo,mistrovstvi,partsOfHouse
+coach,entraineur,allenatore,entrenador,Trainer,trener,trener,partsOfHouse
+competitive,competitif,competitivo,competitivo,wettbewerbsfahig,konkurencyjny,konkurencni,partsOfHouse
+defense,defense,difesa,defensa,Verteidigung,obrona,obrana,partsOfHouse
+doubles,double,doppi,dobles,Doppel,debel,ctyrhra,partsOfHouse
+dribble,dribble,dribblare,regatear,dribbeln,dryblowac,driblovat,partsOfHouse
+dugout,pirogue,panchina,refugio subterraneo,Einbaum,ziemianka,zakop,partsOfHouse
+fan,ventilateur,fan,admirador,Lufter,wentylator,vetrak,partsOfHouse
+field goal,but sur le terrain,obiettivo di campo,gol de campo,Feldtor,gol polowy,field goal,partsOfHouse
+Trumpet,Trompette,Tromba,Trompeta,Trompete,Trabka,Trubka,instruments
+Tuba,Tuba,Tuba,Tuba,Tuba,Tuba,Tuba,instruments
+Trombone,Trombone,Trombone,Trombon,Posaune,Puzon,Pozoun,instruments
+French horn,Cor francais,Corno francese,Trompa francesa,Waldhorn,Rog francuski,lesni roh,instruments
+Bugle,Clairon,Tromba,Bugle,Horn,Dabrowka,Polnice,instruments
+Cornet,Cornet,Cornetta,Cucurucho,Kornett,Kornet,Kornet,instruments
+Euphonium,Euphonium,Eufonio,Eufonio,Euphonium,Eufonium,Euphonium,instruments
+Flugelhorn,Bugle,Flicorno,Fliscorno,Flugelhorn,Flugelhorn,kridlovka,instruments
+Mellophone,Mellophone,Mellofono,Melofono,Mellophon,Melofon,Mellofon,instruments
+Sousaphone,Soubassophone,Sousafono,Sousafon,Sousaphon,Suzafon,Sousaphone,instruments
+Violin,Violon,Violino,Violin,Violine,Skrzypce,Housle,instruments
+Guitar,Guitare,Chitarra,Guitarra,Gitarre,Gitara,Kytara,instruments
+Cello,Violoncelle,Violoncello,Violonchelo,Cello,Wiolonczela,Cello,instruments
+Harp,Harpe,Arpa,Arpa,Harfe,Harfa,Harfa,instruments
+Double bass,Contrebasse,Contrabbasso,Contrabajo,Kontrabass,Kontrabas,Kontrabas,instruments
+Viola,Alto,Viola,Viola,Viola,Altowka,Viola,instruments
+Mandolin,Mandoline,Mandolino,Mandolina,Mandoline,Mandolina,Mandolina,instruments
+Ukulele,Ukulele,Ukulele,Ukelele,Ukulele,Ukulele,Ukulele,instruments
+Banjo,Banjo,Banjo,Banjo,Banjo,Banjo,Bendzo,instruments
+Lute,Luth,Liuto,Laud,Laute,Lutnia,Loutna,instruments
+Computer,Ordinateur,Computer,Computadora,Computer,Komputer,Pocitac,technology
+Internet,Internet,Internet,Internet,Internet,Internet,Internet,technology
+Software,Logiciel,Software,Software,Software,Oprogramowanie,Software,technology
+Hardware,Materiel,Hardware,Hardware,Hardware,Sprzet komputerowy,zelezarske zbozi,technology
+Digital,Numerique,Digitale,Digital,Digitales,Cyfrowy,Digitalni,technology
+Analog: a,Analogique : un,Analogico: un,Analogico: a,Analog: ein,Analogowy: a,Analogove: a,technology
+Processor,Processeur,Processore,Procesador,Prozessor,Edytor,Procesor,technology
+Server,Serveur,Server,Servidor,Server,Serwer,Server,technology
+URL,URL,Indirizzo URL,URL,URL,Adres URL,URL,technology
+Operating System,Systeme operateur,Sistema operativo,Sistema operativo,Betriebssystem,System operacyjny,Operacni system,technology
+Peripheral,Peripherique,Periferica,Periferico,Peripheriegerate,Obwodowy,Obvodovy,technology
+Smartphone,Smartphone,Smartphone,Telefono inteligente,Smartphone,Smartfon,Smartphone,technology
+Tablet,Comprime,Tavoletta,Tableta,Tablette,Tabletka,Tableta,technology
+Laptop,Ordinateur portable,Computer portatile,Computadora portatil,Laptop,Laptop,Prenosny pocitac,technology
+Desktop,Bureau,Scrivania,De oficina,Desktop,Pulpit,Desktop,technology
+Computer,Ordinateur,Computer,Computadora,Computer,Komputer,Pocitac,technology
+Smartwatch,Montre intelligente,Orologio intelligente,Reloj inteligente,Smartwatch,Smartwatch,Chytre hodinky,technology
+E-reader,Liseuse,E-lettore,Lector electronico,Elektronischer Leser,Czytnik e-bookow,Elektronicka ctecka,technology
+Game Console,Console de jeu,Console di gioco,Consola de juegos,Spielkonsole,Konsola do gier,Herni konzole,technology
+Olive,Olive,Oliva,Aceituna,Olive,Oliwka,Olivovy,colors
+Coral,Corail,Corallo,Coral,Koralle,Koral,Koral,colors
+Grey,Gris,Grigio,Gris,Grau,Szary,seda,colors
+White,Blanc,Bianco,Blanco,Weis,Bialy,Bily,colors
+Red,Rouge,Rosso,Rojo,Rot,Czerwony,cerveny,colors
+Blue,Bleu,Blu,Azul,Blau,Niebieski,Modry,colors
+Black,Noir,Nero,Negro,Schwarz,Czarny,cerny,colors
+Gold,Or,Oro,Oro,Gold,Zloto,Zlato,colors
+Violet,Violet,Viola,Violeta,Violett,Fioletowy,Fialovy,colors
+Maroon,Bordeaux,Marrone,Granate,Kastanienbraun,Kasztanowaty,Maroon,colors
+Khaki,Kaki,Cachi,Caqui,Khaki,Khaki,Khaki,colors
+Brown,Brun,Marrone,Marron,Braun,Brazowy,Hnedy,colors
+Purple,Violet,Viola,Purpura,Lila,Fioletowy,Fialova,colors
+Orange,Orange,Arancia,Naranja,Orange,Pomaranczowy,Pomerancovy,colors
+Navy,Marine,Marina Militare,Marina de guerra,Marine,Marynarka wojenna,namornictvo,colors
+Ivory,Ivoire,Avorio,Marfil,Elfenbein,Kosc sloniowa,Slonova kost,colors
+Crimson,Cramoisi,Cremisi,Carmesi,Purpur,Karmazynowy,Karminovy,colors
+Lavender,Lavande,Lavanda,Lavanda,Lavendel,Lawenda,Levandule,colors
+Yellow,Jaune,Giallo,Amarillo,Gelb,zolty,zlut,colors
+Mint,Menthe,Menta,Menta,Minze,Mennica,Mata,colors
+Silver,Argent,Argento,Plata,Silber,Srebrny,Stribro,colors
+Beige,Beige,Beige,Beige,Beige,Bezowy,Bezovy,colors
+Pink,Rose,Rosa,Rosa,Rosa,Rozowy,Ruzovy,colors
+Green,Vert,Verde,Verde,Grun,Zielony,Zeleny,colors
+Turquoise,Turquoise,Turchese,Turquesa,Turkis,Turkus,Tyrkysovy,colors
+fish,poisson,pescare,pez,Fisch,ryba,ryba,animals
+albatross,albatros,albatro,albatros,Albatros,albatros,albatros,animals
+mole,taupe,neo,lunar,Mol,kret,krtek,animals
+mouse,souris,topo,raton,Maus,mysz,mys,animals
+carnivores,carnivores,carnivori,carnivoros,Fleischfresser,miesozercy,masozravci,animals
+alligator,alligator,alligatore,caiman,Alligator,aligator,aligator,animals
+kangaroo,kangourou,canguro,canguro,Kanguru,kangur,klokan,animals
+tutaj,tout le monde,tuta,tutaj,tutaj,tutaj,tutaj,animals
+bobcat,lynx,lince rossa,gato montes,Rotluchs,rys amerykanski,bobcat,animals
+jellyfish,meduse,medusa,medusa,Qualle,meduza,meduza,animals
+bumblebee,bourdon,calabrone,abejorro,Hummel,trzmiel,cmelak,animals
+eagle,aigle,aquila,aguila,Adler,orzel,orel,animals
+buffalo,buffle,bufalo,bufalo,Buffel,bawol,buvol,animals
+hummingbird,colibri,colibrì,colibri,Kolibri,koliber,kolibrik,animals
+goat,chevre,capra,cabra,Ziege,koza,koza,animals
+camel,chameau,cammello,camello,Kamel,wielblad,velbloud,animals
+rabbit,lapin,coniglio,conejo,Kaninchen,krolik,kralici,animals
+yak,yak,yak,yak,Yak,jak,jaka,animals
+nightingale,rossignol,usignolo,ruisenor,Nachtigall,slowik,slavik,animals
+birds,oiseaux,uccelli,pajaros,Vogel,ptaki,ptactvo,animals
+butterfly,papillon,farfalla,mariposa,Schmetterling,motyl,motyl,animals
+caterpillar,chenille,bruco,oruga,Raupe,gasienica,housenka,animals
+fox,renard,volpe,zorro,Fuchs,lis,liska,animals
+pig,cochon,maiale,cerdo,Schwein,swinia,prase,animals
+antelope,antilope,antilope,antilope,Antilope,antylopa,antilopa,animals
+penguin,manchot,pinguino,pinguino,Pinguin,pingwin,tucnak,animals
+badger,blaireau,tasso,tejon,Dachs,borsuk,jezevec,animals
+snail,escargot,lumaca,caracol,Schnecke,slimak,snek,animals
+frog,grenouille,rana,rana,Frosch,zaba,zaba,animals
+centipede,mille-pattes,centopiedi,ciempies,Tausendfusler,skolopendra,stonozka,animals
+fly,voler,volare,volar,fliegen,latac,letat,animals
+lizard,lezard,lucertola,lagarto,Eidechse,jaszczurka,jesterka,animals
+koala,koala,koala,coala,Koala,koala,koala,animals
+grasshopper,sauterelle,cavalletta,saltamontes,Heuschrecke,konik polny,sarance,animals
+lynx,lynx,lince,lince,Luchs,rys,rys,animals
+kiwi,kiwi,kiwi,kiwi,Kiwi,kiwi,kiwi,animals
+crocodile,crocodile,coccodrillo,cocodrilo,Krokodil,krokodyl,krokodyl,animals
+goose,oie,oca,ganso,Gans,ges,husa,animals
+puma,puma,puma,puma,Puma,puma,puma,animals
+sparrow,moineau,passero,gorrion,Spatz,wrobel,vrabec,animals
+bison,bison,bisonte,bisonte,Bison,bizon,bizon,animals
+bear,ours,orso,oso,tragen,niedzwiedz,medved,animals
+bat,batte,pipistrello,murcielago,Schlager,nietoperz,netopyr,animals
+tortoise,tortue,tartaruga,tortuga,Schildkrote,zolw,zelva,animals
+cow,vache,mucca,vaca,Kuh,krowa,krava,animals
+pelican,pelican,pellicano,pelicano,Pelikan,pelikan,pelikan,animals
+amphibians,amphibiens,anfibi,anfibios,Amphibien,plazy,obojzivelnici,animals
+falcon,faucon,falco,halcon,Falke,sokol,sokol,animals
+chicken,poulet,pollo,pollo,Huhn,kurczak,kure,animals
+parrot,perroquet,pappagallo,loro,Papagei,papuga,papousek,animals
+owl,hibou,gufo,buho,Eule,sowa,sova,animals
+turkey,dinde,tacchino,pavo,Truthahn,indyk,Turecko,animals
+ostrich,autruche,struzzo,avestruz,Straus,strus,pstros,animals
+seal,joint,foca,sello,Siegel,foka,pecet,animals
+bee,abeille,ape,abeja,Biene,pszczola,vcela,animals
+wolf,loup,lupo,lobo,Wolf,wilk,vlk,animals
+horse,cheval,cavallo,caballo,Pferd,kon,kun,animals
+rattlesnake,crotale,serpente a sonagli,serpiente de cascabel,Klapperschlange,grzechotnik,chrestys,animals
+cockroach,cafard,scarafaggio,cucaracha,Kakerlake,karaluch,svab,animals
+skunk,mouffette,puzzola,mofeta,Skunk,skunks,skunk,animals
+giraffe,girafe,giraffa,jirafa,Giraffe,zyrafa,zirafa,animals
+panther,panthere,pantera,pantera,Panther,pantera,panter,animals
+chameleon,cameleon,camaleonte,camaleon,Chamaleon,kameleon,chameleon,animals
+sheep,mouton,pecora,oveja,Schaf,owce,ovce,animals
+peacock,paon,pavone,pavo real,Pfau,paw,pav,animals
+reindeer,renne,renna,reno,Ren,renifer,sob,animals
+swan,cygne,cigno,cisne,Schwan,labedz,labut,animals
+insects,insectes,insetti,Insectos,Insekten,owady,hmyz,animals
+omnivores,omnivores,onnivori,omnivoros,Allesfresser,wszystkozercy,vsezravci,animals
+hamster,hamster,criceto,hamster,Hamster,chomik,krecek,animals
+ant,fourmi,formica,hormiga,Ameise,mrowka,mravenec,animals
+mammals,mammiferes,mammiferi,mamiferos,Saugetiere,ssaki,savcu,animals
+beetle,scarabee,scarafaggio,escarabajo,Kafer,chrzaszcz,brouk,animals
+jaguar,jaguar,giaguaro,jaguar,Jaguar,jaguar,jaguar,animals
+monkey,singe,scimmia,mono,Affe,malpa,opice,animals
+cougar,puma,puma,puma,Puma,puma,puma,animals
+lion,lion,leone,leon,Lowe,lew,lev,animals
+zebra,zebre,zebra,cebra,Zebra,zebra,zebra,animals
+llama,lama,lama,llama,Lama,lama,lama,animals
+gorilla,gorille,gorilla,gorila,Gorilla,goryl,gorila,animals
+meerkat,suricate,suricato,suricata,Erdmannchen,surykatka,surikata,animals
+snake,serpent,serpente,serpiente,Schlange,waz,had,animals
+coyote,coyote,coyote,coyote,Kojote,kojot,kojot,animals
+insect,insecte,insetto,insecto,Insekt,owad,hmyz,animals
+mule,mule,mulo,mula,Maultier,mul,mezek,animals
+catfish,poisson-chat,pesce gatto,bagre,Wels,sum,sumec,animals
+walrus,morse,tricheco,morsa,Walross,mors,mroz,animals
+raccoon,raton laveur,procione,mapache,Waschbar,szop,myval,animals
+tiger,tigre,tigre,tigre,Tiger,tygrys,tygr,animals
+moose,elan,alce,alce,Elch,los,los,animals
+hyena,hyene,iena,hiena,Hyane,hiena,hyena,animals
+beaver,castor,castoro,castor,Biber,bobr,bobr,animals
+woodpecker,pic,picchio,pajaro carpintero,Specht,dzieciol,datel,animals
+squirrel,ecureuil,scoiattolo,ardilla,Eichhornchen,wiewiorka,veverka,animals
+reptiles,reptiles,rettili,reptiles,Reptilien,gadzina,plazi,animals
+leopard,leopard,leopardo,leopardo,Leopard,lampart,leopard,animals
+rat,rat,ratto,rata,Ratte,szczur,krysa,animals
+elephant,elephant,elefante,elefante,Elefant,slon,slon,animals
+cat,chat,gatto,gato,Katze,kot,kocka,animals
+bird,oiseau,uccello,pajaro,Vogel,ptak,ptak,animals
+prawn,crevette,gambero,gamba,Garnele,krewetka,kreveta,animals
+herbivores,herbivores,erbivori,herbivoros,Pflanzenfresser,roslinozercy,bylozravci,animals
+cheetah,guepard,ghepardo,guepardo,Gepard,gepard,gepard,animals
+opossum,opossum,opossum,zarigueya,Beutelratte,opos,vacice,animals
+baboon,babouin,babbuino,babuino,Pavian,pawian,pavian,animals
+rhubarb,rhubarbe,rabarbaro,ruibarbo,Rhabarber,rabarbar,rebarbora,vegetables
+kohlrabi,chou-rave,cavolo rapa,colinabo,Kohlrabi,kalarepa,kedluben,vegetables
+onion,oignon,cipolla,cebolla,Zwiebel,cebula,cibule,vegetables
+garlic,ail,aglio,ajo,Knoblauch,czosnek,cesnek,vegetables
+corn,mais,mais,maiz,Mais,kukurydza,kukurice,vegetables
+kale,chou frise,cavolo,col rizada,Grunkohl,kapusta wloska,kapusta,vegetables
+artichoke,artichaut,carciofo,alcachofa,Artischocke,karczoch,artycok,vegetables
+gherkin,cornichon,cetriolino,pepinillo,Gurke,korniszon,okurka,vegetables
+soy,soja,soia,soja,Soja,soja,soja,vegetables
+lentils,lentilles,lenticchie,lentejas,Linsen,soczewica,cocka,vegetables
+horseradish,raifort,rafano,rabano picante,Meerrettich,chrzan,kren,vegetables
+lettuce,laitue,lattuga,lechuga,Kopfsalat,salata,hlavkovy salat,vegetables
+cabbage,chou,cavolo,repollo,Kohl,kapusta,zeli,vegetables
+olives,olives,olive,aceitunas,Oliven,oliwki,olivy,vegetables
+parsnip,panais,pastinaca,chirivia,Pastinake,pasternak,pastinak,vegetables
+tomato,tomate,pomodoro,tomate,Tomate,pomidor,rajce,vegetables
+dill,aneth,aneto,eneldo,Dill,koperek,kopr,vegetables
+chives,ciboulette,erba cipollina,cebollinos,Schnittlauch,szczypiorek,pazitka,vegetables
+chili,piment,peperoncino,chile,Chili,czerwony pieprz,chilli,vegetables
+chicory,chicoree,cicoria,achicoria,Chicoree,cykoria,cikorka,vegetables
+fennel,fenouil,finocchio,hinojo,Fenchel,koper wloski,fenykl,vegetables
+marrow,moelle,midollo,medula,Mark,szpik kostny,dren,vegetables
+peas,petits pois,piselli,guisantes,Erbsen,groszek,hrasek,vegetables
+broccoli,brocoli,broccoli,brocoli,Brokkoli,brokul,brokolice,vegetables
+radish,radis,ravanello,rabano,Rettich,rzodkiewka,redkev,vegetables
+cress,cresson,crescione,berro,Kresse,rzezucha,rericha,vegetables
+pumpkin,citrouille,zucca,calabaza,Kurbis,dynia,dyne,vegetables
+squash,squash,schiacciare,calabaza,quetschen,zdusic,squash,vegetables
+bean,haricot,fagiolo,frijol,Bohne,fasola,fazole,vegetables
+carrot,carotte,carota,zanahoria,Karotte,marchew,mrkev,vegetables
+potato,pomme de terre,patata,papa,Kartoffel,ziemniak,brambor,vegetables
+Vegetables,Legumes,Verdure,Verduras,Gemuse,Warzywa,Zelenina,vegetables
+parsley,persil,prezzemolo,perejil,Petersilie,pietruszka,petrzel,vegetables
+mushrooms,champignons,funghi,hongos,Pilze,grzyby,houby,vegetables
+asparagus,asperge,asparago,esparragos,Spargel,asparagus,chrest,vegetables
+turnip,navet,rapa,nabo,Rube,rzepa,turin,vegetables
+celery,celeri,sedano,apio,Sellerie,seler,celer,vegetables
+leek,poireau,Porro,Puerro,Lauch,por,porek,vegetables
+potatoes,pommes de terre,patate,papas,Kartoffeln,ziemniaki,brambory,vegetables
+cauliflower,chou-fleur,cavolfiore,coliflor,Blumenkohl,kalafior,kvetak,vegetables
+peanuts,cacahuetes,arachidi,miseria,Erdnusse,orzeszki ziemne,arasidy,vegetables
+spinach,epinard,spinaci,espinaca,Spinat,szpinak,spenat,vegetables
+cucumber,concombre,cetriolo,pepino,Gurke,ogorek,okurka,vegetables
+raspberry,framboise,lampone,frambuesa,Himbeere,malina,malina,fruits
+mangosteen,mangoustan,mangostano,mangostan,Mangostan,mangostan,mangostanu,fruits
+blackberry,mure,mora,zarzamora,Brombeere,jezyna,ostruzina,fruits
+hazelnut,noisette,nocciola,avellana,Haselnuss,orzech laskowy,liskovy orech,fruits
+marula,marula,Marula,marula,marula,marula,marula,fruits
+persimmon,kaki,cachi,caqui,Persimmon,kaki,tomel,fruits
+banana,banane,banana,banana,Banane,banan,banan,fruits
+durian,durian,durian,durian,Durian,durian,durian,fruits
+grenadia,Grenade,granada,granadia,grenadi,Grenadia,grenadie,fruits
+avocado,avocat,avocado,palta,Avocado,awokado,avokado,fruits
+orange,orange,arancia,naranja,orange,pomaranczowy,pomerancovy,fruits
+kiwano,Kiwano,kiwanano,kiwano,kiwano,kiwano,kiwano,fruits
+starfruit,carambole,carambola,carambola,Sternfrucht,karambol,hvezdice,fruits
+papaya,papaye,papaia,papaya,Papaya,papaja,papaja,fruits
+blueberry,myrtille,mirtillo,arandano,Blaubeere,jagoda,boruvka,fruits
+tamarillo,tamarillo,tamarillo,tomate de arbol,Tamarillo-Wurzel,tamarillo,tamarillo,fruits
+apple,pomme,mela,manzana,Apfel,jablko,jablko,fruits
+blackcurrant,cassis,ribes nero,grosella negra,schwarze Johannisbeere,czarna porzeczka,cerny rybiz,fruits
+grapes,raisins,uva,uvas,Trauben,winogrona,hrozny,fruits
+pineapple,ananas,ananas,pina,Ananas,ananas,ananas,fruits
+kiwi,kiwi,kiwi,kiwi,Kiwi,kiwi,kiwi,fruits
+ackee,acke,ackee,ackee,ackee,aki,ackee,fruits
+calamondin,calamondin,calamondino,calamondin,Abonnieren,kalamondyna,calamondin,fruits
+apricot,abricot,albicocca,albaricoque,Aprikose,morela,merunka,fruits
+pomegranate,grenade,melograno,granada,Granatapfel,granat,granatove jablko,fruits
+redcurrant,groseille rouge,ribes rosso,grosella roja,rote Johannisbeere,porzeczka czerwona,cerveny rybiz,fruits
+kumquat,kumquat,kumquat,naranja china,Kumquat,kumkwat,kumquat,fruits
+mandarin,mandarin,mandarino,mandarin,Mandarin,mandarynka,mandarinka,fruits
+chestnut,chataigne,castagno,castana,Kastanie,kasztan,kastan,fruits
+cherimoya,cherimole,cherimoya,chirimoya,Cherimoya-Pflanze,czerymoja,cherimoya,fruits
+gooseberry,groseille,uva spina,Grosella,Stachelbeere,agrest,angrest,fruits
+lime,citron vert,lime,cal,Kalk,wapno,vapno,fruits
+watermelon,pasteque,anguria,sandia,Wassermelone,arbuz,vodni meloun,fruits
+nectarine,nectarine,nettarina,nectarina,Nektarine,nektarowy,nektarinka,fruits
+grapefruit,pamplemousse,pompelmo,pomelo,Grapefruit,grejpfrut,grapefruit,fruits
+plum,prune,prugna,ciruela,Pflaume,sliwka,svestka,fruits
+tamarind,tamarin,tamarindo,tamarindo,Tamarinde,tamaryndowiec,tamarind,fruits
+damson,prune,susina selvatica,ciruela damascena,Zwetschge,damaszka,damson,fruits
+babaco,babaco,babbo natale,babaco,Abonnieren,babako,babaco,fruits
+cherry,cerise,ciliegia,cereza,Kirsche,wisniowy,tresen,fruits
+coconut,noix de coco,noce di cocco,Coco,Kokosnuss,orzech kokosowy,kokos,fruits
+pear,poire,pera,pera,Birne,gruszka,hruska,fruits
+strawberry,fraise,fragola,fresa,Erdbeere,truskawka,jahoda,fruits
+peach,peche,pesca,durazno,Pfirsich,brzoskwinia,broskev,fruits
+guava,goyave,guaiava,guayaba,Guave,guawa,guava,fruits
+quince,coing,mela cotogna,membrillo,Quitte,pigwa,kdoule,fruits
+lychee,litchi,litchi,lychee,Litschi,liczi,lici,fruits
+melon,melon,melone,melon,Melone,melon,meloun,fruits
+date,date,data,fecha,Datum,data,datum,fruits
+sunflower,tournesol,girasole,girasol,Sonnenblume,slonecznik,slunecnice,fruits
+atemoya,Atemoya,atemoia,atemoya,Abonnieren,atemoja,atemoya,fruits
+satsuma,Satsuma,mandarino,mandarina,Satsuma,mandarynka,satsuma,fruits
+cantaloupe,cantaloup,Cantalupo,cantalupo,Kantalupe,kantalupa,ananasovy meloun,fruits
+clementine,clementine,clementina,clementina,Clementine,mandarynka,klementinka,fruits
+mulberry,mure,gelso,mora,Maulbeere,morwa,moruse,fruits
+rambutan,ramboutan,rambutan,rambutan,Rambutan,rambutan,rambutan,fruits
+fig,figue,Fico,higo,Feige,figa,Obr,fruits
+jackfruit,jacquier,frutto del jack,yaca,Jackfrucht,chlebowiec,jackfruit,fruits
+lemon,citron,limone,limon,Zitrone,cytrynowy,citron,fruits
+longan,longane,longano,Longan,longan,Longan,longan,fruits
+bael,bael,bael,Bael,bael,belkot,bael,fruits
